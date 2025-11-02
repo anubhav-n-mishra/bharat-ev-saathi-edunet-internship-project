@@ -1,0 +1,4 @@
+vehicle_type,subsidy_per_kwh,max_subsidy,conditions,valid_until
+2-Wheeler,15000,15000,"Battery capacity ≥ 2 kWh, Ex-showroom price ≤ ₹1.5 lakh",2027-03-31
+3-Wheeler,10000,50000,Public transport or commercial use,2027-03-31
+4-Wheeler,10000,150000,Ex-showroom price ≤ ₹15 lakh (minimal for personal use),2027-03-31

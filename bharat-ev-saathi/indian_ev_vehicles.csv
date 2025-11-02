@@ -1,0 +1,59 @@
+brand,model,type,price_inr,range_km,battery_kwh,top_speed,charging_time,segment,year,efficiency_km_per_kwh,acceleration_0_60,fame_eligible,central_subsidy_inr,price_after_subsidy_inr,seating_capacity,battery_warranty_years,available_in_india,popular_in_states,sales_rank,user_rating,annual_maintenance_inr
+Ather,450X,2-Wheeler,145000,105,3.7,90,5.5,Premium Scooter,2024,28.38,2.4,Yes,15000,130000,2,3,Yes,"Gujarat, Tamil Nadu, Karnataka",1,4.4,8000
+Ather,450S,2-Wheeler,130000,90,3.0,90,4.5,Premium Scooter,2024,30.0,2.3,Yes,15000,115000,2,3,Yes,"Karnataka, Maharashtra, Tamil Nadu",2,4.1,8000
+Ather,450 Apex,2-Wheeler,195000,115,3.7,100,5.5,Premium Scooter,2024,31.08,2.4,No,0,195000,2,3,Yes,"Delhi, Karnataka, Telangana",3,4.0,8000
+Ola Electric,S1 Pro,2-Wheeler,139999,135,3.97,115,6.5,Premium Scooter,2024,34.01,2.4,Yes,15000,124999,2,3,Yes,"Tamil Nadu, Delhi, Karnataka",4,3.8,8000
+Ola Electric,S1 Air,2-Wheeler,104999,101,2.98,85,5.0,Mid-Range Scooter,2024,33.89,2.3,Yes,15000,89999,2,3,Yes,"Delhi, Gujarat, Telangana",5,3.6,8000
+Ola Electric,S1 X,2-Wheeler,89999,91,2.5,85,4.5,Budget Scooter,2024,36.4,2.2,Yes,15000,74999,2,3,Yes,"Delhi, Maharashtra, Gujarat",6,4.5,8000
+TVS,iQube,2-Wheeler,112000,100,3.4,78,4.5,Mid-Range Scooter,2024,29.41,2.3,Yes,15000,97000,2,3,Yes,"Gujarat, Karnataka, Delhi",7,4.1,8000
+TVS,iQube ST,2-Wheeler,135000,125,4.0,82,5.0,Mid-Range Scooter,2024,31.25,2.4,Yes,15000,120000,2,3,Yes,"Gujarat, Karnataka, Tamil Nadu",8,4.3,8000
+Bajaj,Chetak,2-Wheeler,125000,95,3.0,73,5.0,Mid-Range Scooter,2024,31.67,2.3,Yes,15000,110000,2,3,Yes,"Tamil Nadu, Delhi, Maharashtra",9,4.9,8000
+Bajaj,Chetak Premium,2-Wheeler,145000,108,3.5,77,5.5,Mid-Range Scooter,2024,30.86,2.4,Yes,15000,130000,2,3,Yes,"Delhi, Karnataka, Telangana",10,4.7,8000
+Simple Energy,One,2-Wheeler,110000,236,4.8,105,4.0,Mid-Range Scooter,2024,49.17,2.5,Yes,15000,95000,2,3,Yes,"Telangana, Maharashtra, Delhi",11,3.6,8000
+Bounce,Infinity E1,2-Wheeler,68000,85,1.9,65,3.5,Budget Scooter,2024,44.74,2.2,Yes,15000,53000,2,3,Yes,"Delhi, Telangana, Gujarat",12,4.0,8000
+Hero Electric,Optima,2-Wheeler,75000,80,1.8,45,4.0,Budget Scooter,2024,44.44,2.2,Yes,15000,60000,2,3,Yes,"Maharashtra, Delhi, Gujarat",13,4.2,8000
+Hero Electric,Photon,2-Wheeler,82000,90,2.1,50,4.5,Budget Scooter,2024,42.86,2.2,Yes,15000,67000,2,3,Yes,"Maharashtra, Karnataka, Delhi",14,3.6,8000
+Hero Electric,Nyx,2-Wheeler,95000,100,2.4,60,5.0,Budget Scooter,2024,41.67,2.2,Yes,15000,80000,2,3,Yes,"Karnataka, Tamil Nadu, Delhi",15,4.4,8000
+Ampere,Magnus Pro,2-Wheeler,85000,100,2.3,55,5.0,Budget Scooter,2024,43.48,2.2,Yes,15000,70000,2,3,Yes,"Gujarat, Delhi, Maharashtra",16,4.0,8000
+Ampere,Primus,2-Wheeler,95000,120,2.9,55,5.5,Budget Scooter,2024,41.38,2.3,Yes,15000,80000,2,3,Yes,"Delhi, Karnataka, Telangana",17,4.8,8000
+Okinawa,iPraise,2-Wheeler,110000,139,3.3,58,5.0,Mid-Range Scooter,2024,42.12,2.3,Yes,15000,95000,2,3,Yes,"Karnataka, Telangana, Gujarat",18,4.0,8000
+Okinawa,PraisePro,2-Wheeler,88000,110,2.7,52,4.5,Budget Scooter,2024,40.74,2.3,Yes,15000,73000,2,3,Yes,"Tamil Nadu, Maharashtra, Karnataka",19,4.4,8000
+Revolt,RV400,2-Wheeler,135000,150,3.24,85,4.5,Premium Scooter,2024,46.3,2.3,Yes,15000,120000,2,3,Yes,"Gujarat, Maharashtra, Tamil Nadu",20,3.8,8000
+Pure EV,ePluto 7G,2-Wheeler,95000,116,2.9,60,4.0,Budget Scooter,2024,40.0,2.3,Yes,15000,80000,2,3,Yes,"Delhi, Maharashtra, Telangana",21,4.4,8000
+Tata,Tiago EV,4-Wheeler,849000,315,24.0,110,8.0,Compact Hatchback,2024,13.12,5.9,Yes,0,849000,5,8,Yes,"Telangana, Maharashtra, Delhi",22,4.8,25000
+Tata,Tigor EV,4-Wheeler,1249000,315,26.0,120,8.5,Compact Sedan,2024,12.12,6.1,Yes,0,1249000,5,8,Yes,"Delhi, Telangana, Tamil Nadu",23,4.2,25000
+Tata,Punch EV,4-Wheeler,1099000,365,28.5,125,9.0,Micro SUV,2024,12.81,6.3,Yes,0,1099000,5,8,Yes,"Telangana, Delhi, Gujarat",24,3.9,25000
+Citroen,eC3,4-Wheeler,1199000,320,29.2,107,10.5,Compact Hatchback,2024,10.96,6.4,Yes,0,1199000,5,8,Yes,"Gujarat, Delhi, Karnataka",25,4.5,25000
+MG,Comet EV,4-Wheeler,799000,230,17.3,105,7.0,Micro Car,2024,13.29,5.2,Yes,0,799000,5,8,Yes,"Delhi, Gujarat, Karnataka",26,3.7,25000
+Mahindra,e2o,4-Wheeler,650000,140,15.0,85,6.0,Micro Car,2024,9.33,5.0,Yes,0,650000,5,8,Yes,"Delhi, Karnataka, Tamil Nadu",27,3.8,25000
+Tata,Nexon EV,4-Wheeler,1499000,325,30.2,120,8.5,Compact SUV,2024,10.76,6.5,Yes,0,1499000,5,8,Yes,"Karnataka, Maharashtra, Delhi",28,3.8,25000
+Tata,Nexon EV Max,4-Wheeler,1799000,437,40.5,140,15.0,Compact SUV,2024,10.79,7.5,No,0,1799000,5,8,Yes,"Tamil Nadu, Maharashtra, Gujarat",29,4.5,25000
+Tata,Curvv EV,4-Wheeler,1899000,500,45.0,150,16.0,Mid-Size SUV,2024,11.11,8.0,No,0,1899000,5,8,Yes,"Telangana, Karnataka, Tamil Nadu",30,4.4,25000
+Mahindra,XUV400 EV,4-Wheeler,1699000,456,39.4,150,13.0,Compact SUV,2024,11.57,7.4,No,0,1699000,5,8,Yes,"Karnataka, Telangana, Gujarat",31,4.6,25000
+Mahindra,XUV700 EV,4-Wheeler,2499000,550,60.0,160,18.0,Mid-Size SUV,2024,9.17,9.5,No,0,2499000,5,8,Yes,"Maharashtra, Karnataka, Telangana",32,3.9,50000
+Mahindra,BE 6e,4-Wheeler,2299000,535,59.0,155,17.0,Mid-Size SUV,2024,9.07,9.4,No,0,2299000,5,8,Yes,"Telangana, Karnataka, Delhi",33,4.7,50000
+MG,ZS EV,4-Wheeler,2199000,461,50.3,140,15.0,Mid-Size SUV,2024,9.17,8.5,No,0,2199000,5,8,Yes,"Maharashtra, Delhi, Telangana",34,4.7,50000
+MG,Windsor EV,4-Wheeler,1499000,331,38.0,130,12.0,Compact SUV,2024,8.71,7.3,Yes,0,1499000,5,8,Yes,"Tamil Nadu, Karnataka, Delhi",35,4.9,25000
+BYD,Atto 3,4-Wheeler,3399000,521,60.48,160,16.0,Mid-Size SUV,2024,8.61,9.5,No,0,3399000,5,8,Yes,"Gujarat, Maharashtra, Telangana",36,3.7,50000
+BYD,e6,4-Wheeler,2999000,415,71.7,130,19.0,MPV,2024,5.79,10.7,No,0,2999000,5,8,Yes,"Maharashtra, Karnataka, Telangana",37,3.6,50000
+Hyundai,Kona Electric,4-Wheeler,2399000,452,39.2,155,9.5,Mid-Size SUV,2024,11.53,7.4,No,0,2399000,5,8,Yes,"Telangana, Tamil Nadu, Karnataka",38,4.8,50000
+Hyundai,Ioniq 5,4-Wheeler,4599000,631,72.6,185,18.0,Premium SUV,2024,8.69,10.8,No,0,4599000,5,8,Yes,"Karnataka, Tamil Nadu, Delhi",39,4.3,50000
+Kia,EV6,4-Wheeler,6099000,708,77.4,185,18.0,Premium SUV,2024,9.15,11.2,No,0,6099000,5,8,Yes,"Telangana, Maharashtra, Delhi",40,3.6,50000
+Volvo,XC40 Recharge,4-Wheeler,6095000,418,78.0,180,19.0,Luxury SUV,2024,5.36,11.3,No,0,6095000,5,8,Yes,"Tamil Nadu, Gujarat, Delhi",41,3.6,50000
+Mercedes-Benz,EQS,4-Wheeler,15500000,677,107.8,210,31.0,Luxury Sedan,2024,6.28,14.3,No,0,15500000,5,8,Yes,"Delhi, Maharashtra, Tamil Nadu",42,3.8,50000
+Mercedes-Benz,EQB,4-Wheeler,7899000,423,66.5,160,19.0,Luxury SUV,2024,6.36,10.2,No,0,7899000,5,8,Yes,"Delhi, Telangana, Gujarat",43,4.4,50000
+Mercedes-Benz,EQE,4-Wheeler,13990000,550,90.6,210,25.0,Luxury Sedan,2024,6.07,12.6,No,0,13990000,5,8,Yes,"Tamil Nadu, Gujarat, Karnataka",44,3.9,50000
+BMW,iX,4-Wheeler,12500000,635,111.5,200,35.0,Luxury SUV,2024,5.7,14.7,No,0,12500000,5,8,Yes,"Tamil Nadu, Maharashtra, Karnataka",45,4.0,50000
+BMW,i4,4-Wheeler,7990000,590,83.9,225,22.0,Luxury Sedan,2024,7.03,11.9,No,0,7990000,5,8,Yes,"Telangana, Maharashtra, Delhi",46,4.4,50000
+BMW,i7,4-Wheeler,21000000,625,101.7,240,28.0,Luxury Sedan,2024,6.15,13.7,No,0,21000000,5,8,Yes,"Telangana, Gujarat, Delhi",47,4.0,50000
+Audi,e-tron,4-Wheeler,10200000,484,95.0,200,29.0,Luxury SUV,2024,5.09,13.0,No,0,10200000,5,8,Yes,"Gujarat, Karnataka, Tamil Nadu",48,3.9,50000
+Audi,e-tron GT,4-Wheeler,17900000,488,93.4,245,22.0,Luxury Sports,2024,5.22,12.8,No,0,17900000,5,8,Yes,"Gujarat, Maharashtra, Delhi",49,3.7,50000
+Porsche,Taycan,4-Wheeler,18500000,484,93.4,260,22.0,Luxury Sports,2024,5.18,12.8,No,0,18500000,5,8,Yes,"Telangana, Maharashtra, Delhi",50,4.7,50000
+Jaguar,I-Pace,4-Wheeler,11800000,470,90.0,200,25.0,Luxury SUV,2024,5.22,12.5,No,0,11800000,5,8,Yes,"Tamil Nadu, Karnataka, Telangana",51,4.3,50000
+Mahindra,Treo,3-Wheeler,245000,130,7.37,55,3.5,Passenger Auto,2024,17.64,4.2,Yes,50000,195000,4,3,Yes,"Maharashtra, Karnataka, Tamil Nadu",52,3.7,12000
+Mahindra,Treo Zor,3-Wheeler,285000,125,8.0,50,3.8,Cargo Auto,2024,15.62,4.3,Yes,50000,235000,4,3,Yes,"Telangana, Gujarat, Maharashtra",53,4.4,12000
+Piaggio,Ape E-Xtra,3-Wheeler,275000,110,8.1,45,4.0,Cargo Auto,2024,13.58,4.3,Yes,50000,225000,4,3,Yes,"Telangana, Maharashtra, Delhi",54,4.5,12000
+Piaggio,Ape E-City,3-Wheeler,295000,120,8.5,50,4.2,Passenger Auto,2024,14.12,4.3,Yes,50000,245000,4,3,Yes,"Maharashtra, Gujarat, Karnataka",55,3.6,12000
+Euler Motors,HiLoad,3-Wheeler,325000,150,12.6,50,4.5,Cargo Auto,2024,11.9,4.8,Yes,50000,275000,4,3,Yes,"Gujarat, Karnataka, Tamil Nadu",56,3.6,12000
+Omega Seiki,Rage+,3-Wheeler,315000,140,10.9,55,4.0,Cargo Auto,2024,12.84,4.6,Yes,50000,265000,4,3,Yes,"Telangana, Karnataka, Delhi",57,4.8,12000
+Altigreen,neEV,3-Wheeler,580000,170,16.2,60,5.0,Cargo Auto,2024,10.49,5.1,Yes,50000,530000,4,3,Yes,"Tamil Nadu, Maharashtra, Gujarat",58,3.7,12000
