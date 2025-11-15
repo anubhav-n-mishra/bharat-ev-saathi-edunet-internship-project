@@ -37,18 +37,22 @@ env/
 # Environment Variables
 .env
 
+# Documentation Files (Local Only)
+PPT_CONTENT.txt
+LATEST_IMPROVEMENTS.txt
+
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
 
-# Data (optional - keep generated data local)
-data/processed/*.csv
-data/raw/*.csv
+# Data - Now included in repo
+# data/processed/*.csv
+# data/raw/*.csv
 
-# Models
-models/saved/*.pkl
-models/saved/*.h5
-models/saved/*.pt
+# Models - Now included in repo
+# models/saved/*.pkl
+# models/saved/*.h5
+# models/saved/*.pt
 
 # Logs
 logs/

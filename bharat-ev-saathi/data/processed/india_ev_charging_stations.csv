@@ -1,0 +1,459 @@
+station_id,station_name,network,city,state,latitude,longitude,location_type,charger_type,power_kw,num_chargers,operating_hours,payment_methods,amenities,status,cost_per_unit,parking_fee
+EV1000,Mumbai Shopping Mall - 1,Fortum Charge & Drive,Mumbai,Maharashtra,19.268297,72.903041,Shopping Mall,CHAdeMO,25.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.42,0
+EV1001,Mumbai Residential Complex - 2,Exicom,Mumbai,Maharashtra,19.15233,72.987965,Residential Complex,Bharat DC-001,50.0,4,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,11.63,20
+EV1002,Mumbai Residential Complex - 3,BPCL,Mumbai,Maharashtra,19.201397,72.961097,Residential Complex,CCS2,100.0,6,8 AM - 10 PM,"App, Card, UPI",Restroom,Operational,11.68,30
+EV1003,Mumbai Highway Rest Stop - 4,Fortum Charge & Drive,Mumbai,Maharashtra,19.233192,72.911082,Highway Rest Stop,CHAdeMO,25.0,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.99,20
+EV1004,Mumbai Office Complex - 5,Ola Electric,Mumbai,Maharashtra,19.180667,72.905113,Office Complex,Bharat AC-001,11.0,2,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,11.3,30
+EV1005,Mumbai Restaurant - 6,Reliance BP,Mumbai,Maharashtra,19.216506,72.801517,Restaurant,Bharat DC-001,60.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,14.18,30
+EV1006,Mumbai Residential Complex - 7,IOCL,Mumbai,Maharashtra,19.129444,72.801778,Residential Complex,Bharat AC-001,7.4,3,8 AM - 10 PM,"App, Card, UPI",Restroom,Operational,11.47,20
+EV1007,Mumbai Office Complex - 8,ChargeZone,Mumbai,Maharashtra,19.009878,72.979684,Office Complex,AC Type 2,11.0,4,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,10.06,0
+EV1008,Mumbai Office Complex - 9,Ola Electric,Mumbai,Maharashtra,19.271547,72.809467,Office Complex,AC Type 2,11.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,14.45,30
+EV1009,Mumbai Petrol Pump - 10,Reliance BP,Mumbai,Maharashtra,19.056443,72.965119,Petrol Pump,Bharat AC-001,22.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,9.8,20
+EV1010,Mumbai Metro Station - 11,Exicom,Mumbai,Maharashtra,19.135689,72.846519,Metro Station,Bharat AC-001,22.0,2,24/7,"App, Card, UPI",Cafe,Operational,13.78,50
+EV1011,Mumbai Office Complex - 12,Kazam EV,Mumbai,Maharashtra,19.008639,72.822739,Office Complex,Bharat DC-001,60.0,6,24/7,"App, Card, UPI",Cafe,Operational,11.37,30
+EV1012,Mumbai Tech Park - 13,Ola Electric,Mumbai,Maharashtra,19.288954,72.823174,Tech Park,Bharat DC-001,150.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,9.42,0
+EV1013,Mumbai Metro Station - 14,Tata Power EZ Charge,Mumbai,Maharashtra,19.222516,72.984713,Metro Station,CHAdeMO,60.0,1,24/7,"App, Card, UPI",WiFi,Operational,11.45,0
+EV1014,Mumbai Shopping Mall - 15,ChargeZone,Mumbai,Maharashtra,19.098404,72.886617,Shopping Mall,AC Type 2,7.4,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.12,30
+EV1015,Mumbai Airport - 16,BluSmart,Mumbai,Maharashtra,19.216711,72.944564,Airport,CHAdeMO,50.0,3,9 AM - 9 PM,"App, Card, UPI",None,Operational,14.81,0
+EV1016,Mumbai Hotel - 17,Exicom,Mumbai,Maharashtra,19.073165,72.945101,Hotel,Bharat AC-001,7.4,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,14.27,20
+EV1017,Mumbai Hospital - 18,IOCL,Mumbai,Maharashtra,19.280654,72.977274,Hospital,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.66,0
+EV1018,Mumbai Highway Rest Stop - 19,Statiq,Mumbai,Maharashtra,19.199278,72.988918,Highway Rest Stop,CHAdeMO,60.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,10.86,0
+EV1019,Mumbai Tourist Spot - 20,BluSmart,Mumbai,Maharashtra,19.11161,72.891736,Tourist Spot,Bharat DC-001,150.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,13.28,50
+EV1020,Mumbai Office Complex - 21,Magenta Power,Mumbai,Maharashtra,19.00831,72.957536,Office Complex,AC Type 2,22.0,2,24/7,"App, Card, UPI",None,Operational,10.23,20
+EV1021,Mumbai Petrol Pump - 22,Ola Electric,Mumbai,Maharashtra,19.032175,72.8455,Petrol Pump,Bharat AC-001,3.3,2,24/7,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,10.29,20
+EV1022,Mumbai Hospital - 23,Reliance BP,Mumbai,Maharashtra,19.23329,72.802498,Hospital,CCS2,60.0,2,9 AM - 9 PM,"App, Card, UPI",Cafe,Operational,11.9,0
+EV1023,Mumbai Hospital - 24,BluSmart,Mumbai,Maharashtra,19.104778,72.81489,Hospital,Bharat DC-001,25.0,2,6 AM - 11 PM,"App, Card, UPI","Restroom, Waiting Area",Operational,10.03,50
+EV1024,Mumbai Shopping Mall - 25,Fortum Charge & Drive,Mumbai,Maharashtra,19.041736,72.944765,Shopping Mall,Bharat AC-001,22.0,2,24/7,"App, Card, UPI",None,Operational,8.69,20
+EV1025,Mumbai Highway Rest Stop - 26,Reliance BP,Mumbai,Maharashtra,19.219444,72.97973,Highway Rest Stop,Bharat DC-001,150.0,4,9 AM - 9 PM,"App, Card, UPI",Restroom,Operational,11.61,20
+EV1026,Mumbai Highway Rest Stop - 27,Ather Grid,Mumbai,Maharashtra,19.247685,72.929324,Highway Rest Stop,Bharat DC-001,25.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,10.73,30
+EV1027,Mumbai Airport - 28,Ola Electric,Mumbai,Maharashtra,19.177907,72.917756,Airport,CHAdeMO,100.0,2,24/7,"App, Card, UPI",Restroom,Operational,12.24,50
+EV1028,Mumbai Airport - 29,ChargeZone,Mumbai,Maharashtra,19.062838,72.857179,Airport,Bharat AC-001,11.0,3,24/7,"App, Card, UPI","Cafe, Restroom, Waiting Area",Operational,12.59,30
+EV1029,Mumbai Shopping Mall - 30,Reliance BP,Mumbai,Maharashtra,19.186441,72.933327,Shopping Mall,AC Type 2,11.0,6,9 AM - 9 PM,"App, Card, UPI",None,Operational,8.19,30
+EV1030,Mumbai Tech Park - 31,Tata Power EZ Charge,Mumbai,Maharashtra,19.172649,72.960623,Tech Park,AC Type 2,11.0,1,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,14.96,0
+EV1031,Mumbai Restaurant - 32,Tata Power EZ Charge,Mumbai,Maharashtra,19.026507,72.877915,Restaurant,AC Type 2,7.4,3,8 AM - 10 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,12.91,30
+EV1032,Mumbai Shopping Mall - 33,BluSmart,Mumbai,Maharashtra,19.27335,72.836993,Shopping Mall,Bharat AC-001,7.4,3,24/7,"App, Card, UPI",Cafe,Operational,9.19,30
+EV1033,Mumbai Petrol Pump - 34,Revolt Motors,Mumbai,Maharashtra,19.147793,72.977035,Petrol Pump,AC Type 2,11.0,2,24/7,"App, Card, UPI",Restroom,Operational,13.57,50
+EV1034,Mumbai Residential Complex - 35,Revolt Motors,Mumbai,Maharashtra,19.276633,72.821117,Residential Complex,Bharat AC-001,7.4,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.51,50
+EV1035,Mumbai Office Complex - 36,Fortum Charge & Drive,Mumbai,Maharashtra,19.222677,72.833835,Office Complex,CHAdeMO,60.0,4,6 AM - 11 PM,"App, Card, UPI","Cafe, Restroom, Waiting Area",Operational,10.21,20
+EV1036,Mumbai Office Complex - 37,Reliance BP,Mumbai,Maharashtra,19.28121,72.915397,Office Complex,Bharat AC-001,3.3,1,8 AM - 10 PM,"App, Card, UPI",Waiting Area,Operational,12.84,30
+EV1037,Mumbai Tech Park - 38,IOCL,Mumbai,Maharashtra,19.258167,72.857384,Tech Park,Bharat DC-001,100.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,13.98,20
+EV1038,Mumbai Hospital - 39,Statiq,Mumbai,Maharashtra,19.279221,72.863546,Hospital,AC Type 2,3.3,2,24/7,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,9.55,50
+EV1039,Mumbai Tech Park - 40,Revolt Motors,Mumbai,Maharashtra,19.252568,72.98903,Tech Park,AC Type 2,11.0,1,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,13.93,20
+EV1040,Mumbai Hotel - 41,Revolt Motors,Mumbai,Maharashtra,19.010625,72.879297,Hotel,CHAdeMO,50.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,13.77,0
+EV1041,Mumbai Office Complex - 42,Exicom,Mumbai,Maharashtra,19.186895,72.997009,Office Complex,AC Type 2,22.0,2,8 AM - 10 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,9.35,50
+EV1042,Mumbai Airport - 43,BluSmart,Mumbai,Maharashtra,19.210183,72.957388,Airport,AC Type 2,3.3,3,9 AM - 9 PM,"App, Card, UPI",WiFi,Operational,13.45,30
+EV1043,Mumbai Highway Rest Stop - 44,BluSmart,Mumbai,Maharashtra,19.103114,72.848163,Highway Rest Stop,AC Type 2,7.4,3,9 AM - 9 PM,"App, Card, UPI","WiFi, Restroom",Operational,12.53,50
+EV1044,Mumbai Office Complex - 45,Tata Power EZ Charge,Mumbai,Maharashtra,19.019805,72.999584,Office Complex,Bharat AC-001,7.4,2,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.4,20
+EV1045,Delhi Restaurant - 1,ChargeZone,Delhi,Delhi,28.629051,77.262016,Restaurant,Bharat DC-001,60.0,4,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,13.22,20
+EV1046,Delhi Metro Station - 2,Reliance BP,Delhi,Delhi,28.474261,77.044683,Metro Station,Bharat DC-001,150.0,2,24/7,"App, Card, UPI",Cafe,Operational,9.16,50
+EV1047,Delhi Residential Complex - 3,Revolt Motors,Delhi,Delhi,28.718165,76.951294,Residential Complex,CCS2,100.0,6,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.63,0
+EV1048,Delhi Office Complex - 4,ChargeZone,Delhi,Delhi,28.682848,76.890802,Office Complex,Bharat DC-001,100.0,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,11.97,30
+EV1049,Delhi Tech Park - 5,ChargeZone,Delhi,Delhi,28.896032,76.946433,Tech Park,Bharat DC-001,150.0,8,24/7,"App, Card, UPI","WiFi, Cafe",Operational,8.02,30
+EV1050,Delhi Tourist Spot - 6,Kazam EV,Delhi,Delhi,28.489126,77.151369,Tourist Spot,Bharat DC-001,150.0,2,24/7,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,9.97,20
+EV1051,Delhi Airport - 7,ChargeZone,Delhi,Delhi,28.533284,77.033049,Airport,Bharat AC-001,7.4,2,24/7,"App, Card, UPI",None,Operational,12.17,30
+EV1052,Delhi Residential Complex - 8,HPCL,Delhi,Delhi,28.609074,76.881065,Residential Complex,Bharat AC-001,7.4,1,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,12.29,20
+EV1053,Delhi Petrol Pump - 9,Tata Power EZ Charge,Delhi,Delhi,28.552971,77.08501,Petrol Pump,AC Type 2,3.3,2,24/7,"App, Card, UPI",Restroom,Operational,9.59,0
+EV1054,Delhi Shopping Mall - 10,Ather Grid,Delhi,Delhi,28.653144,77.057214,Shopping Mall,CHAdeMO,60.0,2,9 AM - 9 PM,"App, Card, UPI",None,Operational,14.47,50
+EV1055,Delhi Hotel - 11,Fortum Charge & Drive,Delhi,Delhi,28.596319,76.870532,Hotel,AC Type 2,11.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.48,30
+EV1056,Delhi Tech Park - 12,ChargeZone,Delhi,Delhi,28.748965,76.943287,Tech Park,CHAdeMO,150.0,1,9 AM - 9 PM,"App, Card, UPI",Restroom,Operational,8.28,50
+EV1057,Delhi Shopping Mall - 13,BluSmart,Delhi,Delhi,28.736511,76.856764,Shopping Mall,Bharat AC-001,22.0,1,8 AM - 10 PM,"App, Card, UPI",None,Operational,9.95,0
+EV1058,Delhi Highway Rest Stop - 14,Reliance BP,Delhi,Delhi,28.738242,76.847189,Highway Rest Stop,Bharat DC-001,25.0,1,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,12.65,50
+EV1059,Delhi Tourist Spot - 15,Exicom,Delhi,Delhi,28.663551,76.897605,Tourist Spot,CCS2,25.0,1,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,10.06,20
+EV1060,Delhi Highway Rest Stop - 16,Magenta Power,Delhi,Delhi,28.695564,77.164801,Highway Rest Stop,CHAdeMO,60.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,11.91,0
+EV1061,Delhi Petrol Pump - 17,Exicom,Delhi,Delhi,28.423376,76.892682,Petrol Pump,CCS2,50.0,4,9 AM - 9 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,8.46,20
+EV1062,Delhi Hospital - 18,HPCL,Delhi,Delhi,28.514164,76.950275,Hospital,AC Type 2,11.0,3,24/7,"App, Card, UPI",WiFi,Operational,8.31,0
+EV1063,Delhi Airport - 19,Ather Grid,Delhi,Delhi,28.405709,77.135821,Airport,CCS2,60.0,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Restroom",Operational,14.67,50
+EV1064,Delhi Petrol Pump - 20,Tata Power EZ Charge,Delhi,Delhi,28.683081,76.938397,Petrol Pump,Bharat DC-001,25.0,2,8 AM - 10 PM,"App, Card, UPI",None,Operational,13.95,50
+EV1065,Delhi Residential Complex - 21,Ather Grid,Delhi,Delhi,28.834754,77.219333,Residential Complex,AC Type 2,3.3,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,14.91,50
+EV1066,Delhi Office Complex - 22,BPCL,Delhi,Delhi,28.450778,76.800618,Office Complex,Bharat AC-001,7.4,1,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,12.38,50
+EV1067,Delhi Shopping Mall - 23,BluSmart,Delhi,Delhi,28.842691,77.105395,Shopping Mall,AC Type 2,3.3,3,24/7,"App, Card, UPI",Cafe,Operational,10.62,30
+EV1068,Delhi Residential Complex - 24,Revolt Motors,Delhi,Delhi,28.508584,77.120289,Residential Complex,AC Type 2,7.4,4,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,8.48,20
+EV1069,Delhi Petrol Pump - 25,Kazam EV,Delhi,Delhi,28.625176,76.861707,Petrol Pump,CCS2,150.0,2,24/7,"App, Card, UPI",Cafe,Operational,8.75,30
+EV1070,Delhi Office Complex - 26,BPCL,Delhi,Delhi,28.88529,77.081074,Office Complex,CCS2,150.0,2,24/7,"App, Card, UPI","WiFi, Waiting Area",Operational,12.85,0
+EV1071,Delhi Shopping Mall - 27,Tata Power EZ Charge,Delhi,Delhi,28.482678,76.930426,Shopping Mall,Bharat DC-001,150.0,8,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,12.39,30
+EV1072,Delhi Tourist Spot - 28,Magenta Power,Delhi,Delhi,28.819966,77.170552,Tourist Spot,Bharat AC-001,7.4,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.4,0
+EV1073,Delhi Tourist Spot - 29,Ather Grid,Delhi,Delhi,28.807908,76.829474,Tourist Spot,CCS2,25.0,2,24/7,"App, Card, UPI",Cafe,Operational,12.33,50
+EV1074,Delhi Tourist Spot - 30,ChargeZone,Delhi,Delhi,28.731753,77.126501,Tourist Spot,AC Type 2,11.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.33,20
+EV1075,Delhi Restaurant - 31,IOCL,Delhi,Delhi,28.526037,76.874145,Restaurant,AC Type 2,3.3,6,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.79,20
+EV1076,Delhi Airport - 32,Magenta Power,Delhi,Delhi,28.477954,77.078603,Airport,AC Type 2,7.4,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,8.42,50
+EV1077,Delhi Hospital - 33,Revolt Motors,Delhi,Delhi,28.787565,77.049925,Hospital,CCS2,50.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe, Restroom, Waiting Area",Operational,10.54,0
+EV1078,Delhi Office Complex - 34,Statiq,Delhi,Delhi,28.849906,77.101391,Office Complex,CCS2,100.0,3,8 AM - 10 PM,"App, Card, UPI","Cafe, Restroom",Operational,14.54,50
+EV1079,Delhi Tourist Spot - 35,Ather Grid,Delhi,Delhi,28.480672,77.117202,Tourist Spot,Bharat DC-001,25.0,3,24/7,"App, Card, UPI",WiFi,Operational,10.89,0
+EV1080,Delhi Office Complex - 36,IOCL,Delhi,Delhi,28.463451,77.0668,Office Complex,Bharat DC-001,25.0,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,9.17,0
+EV1081,Delhi Hotel - 37,Fortum Charge & Drive,Delhi,Delhi,28.681388,77.051127,Hotel,AC Type 2,7.4,8,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,14.3,50
+EV1082,Delhi Metro Station - 38,BPCL,Delhi,Delhi,28.548863,77.062421,Metro Station,Bharat AC-001,3.3,2,8 AM - 10 PM,"App, Card, UPI",None,Operational,11.62,0
+EV1083,Delhi Tech Park - 39,Ather Grid,Delhi,Delhi,28.52561,76.977657,Tech Park,Bharat AC-001,3.3,1,24/7,"App, Card, UPI",WiFi,Operational,12.31,20
+EV1084,Delhi Petrol Pump - 40,Exicom,Delhi,Delhi,28.507118,77.161473,Petrol Pump,Bharat AC-001,7.4,2,24/7,"App, Card, UPI",WiFi,Operational,8.3,20
+EV1085,Delhi Airport - 41,Tata Power EZ Charge,Delhi,Delhi,28.449455,77.136299,Airport,CHAdeMO,100.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,14.37,20
+EV1086,Delhi Hospital - 42,Tata Power EZ Charge,Delhi,Delhi,28.547032,77.093816,Hospital,CHAdeMO,50.0,3,24/7,"App, Card, UPI",Restroom,Operational,10.68,30
+EV1087,Delhi Tech Park - 43,BluSmart,Delhi,Delhi,28.435053,77.164925,Tech Park,AC Type 2,11.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.34,0
+EV1088,Delhi Hotel - 44,HPCL,Delhi,Delhi,28.633262,77.249972,Hotel,Bharat AC-001,22.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,11.16,0
+EV1089,Delhi Petrol Pump - 45,Revolt Motors,Delhi,Delhi,28.666627,76.870069,Petrol Pump,Bharat AC-001,7.4,1,24/7,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,12.33,20
+EV1090,Delhi Hotel - 46,Tata Power EZ Charge,Delhi,Delhi,28.833281,76.871128,Hotel,Bharat AC-001,11.0,2,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,8.88,0
+EV1091,Delhi Highway Rest Stop - 47,Ola Electric,Delhi,Delhi,28.541336,77.213934,Highway Rest Stop,AC Type 2,11.0,3,9 AM - 9 PM,"App, Card, UPI",None,Operational,14.73,50
+EV1092,Delhi Residential Complex - 48,Statiq,Delhi,Delhi,28.563499,77.090452,Residential Complex,CCS2,100.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.59,20
+EV1093,Delhi Tech Park - 49,ChargeZone,Delhi,Delhi,28.849369,76.941841,Tech Park,Bharat DC-001,50.0,3,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,13.14,30
+EV1094,Delhi Hospital - 50,Ola Electric,Delhi,Delhi,28.848874,77.16979,Hospital,AC Type 2,3.3,4,8 AM - 10 PM,"App, Card, UPI",Restroom,Operational,9.1,20
+EV1095,Delhi Airport - 51,Exicom,Delhi,Delhi,28.81349,77.159859,Airport,CHAdeMO,100.0,3,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,12.41,20
+EV1096,Delhi Hotel - 52,Kazam EV,Delhi,Delhi,28.544201,76.844364,Hotel,Bharat DC-001,100.0,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,8.2,50
+EV1097,Delhi Tech Park - 53,Statiq,Delhi,Delhi,28.448155,76.857535,Tech Park,Bharat DC-001,150.0,1,9 AM - 9 PM,"App, Card, UPI",None,Operational,10.22,0
+EV1098,Delhi Tourist Spot - 54,Reliance BP,Delhi,Delhi,28.423291,77.17874,Tourist Spot,AC Type 2,3.3,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,12.71,50
+EV1099,Delhi Residential Complex - 55,HPCL,Delhi,Delhi,28.535013,77.10789,Residential Complex,AC Type 2,11.0,1,24/7,"App, Card, UPI",Waiting Area,Operational,8.63,20
+EV1100,Delhi Airport - 56,Ather Grid,Delhi,Delhi,28.505925,76.942296,Airport,CHAdeMO,25.0,1,24/7,"App, Card, UPI",Cafe,Operational,12.39,0
+EV1101,Delhi Residential Complex - 57,Fortum Charge & Drive,Delhi,Delhi,28.600269,77.015036,Residential Complex,Bharat DC-001,100.0,6,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,11.43,30
+EV1102,Delhi Office Complex - 58,HPCL,Delhi,Delhi,28.422451,77.223627,Office Complex,AC Type 2,7.4,4,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,9.31,0
+EV1103,Delhi Petrol Pump - 59,Exicom,Delhi,Delhi,28.658102,76.814368,Petrol Pump,CHAdeMO,100.0,4,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,13.9,50
+EV1104,Delhi Hotel - 60,IOCL,Delhi,Delhi,28.494877,77.19594,Hotel,CCS2,60.0,8,24/7,"App, Card, UPI","WiFi, Restroom",Operational,11.48,20
+EV1105,Bangalore Residential Complex - 1,Ola Electric,Bangalore,Karnataka,12.951328,77.599471,Residential Complex,AC Type 2,7.4,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.82,30
+EV1106,Bangalore Metro Station - 2,Tata Power EZ Charge,Bangalore,Karnataka,12.814847,77.462509,Metro Station,Bharat AC-001,3.3,3,24/7,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,11.91,30
+EV1107,Bangalore Highway Rest Stop - 3,Ather Grid,Bangalore,Karnataka,12.951118,77.589163,Highway Rest Stop,Bharat DC-001,100.0,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.96,0
+EV1108,Bangalore Tech Park - 4,BPCL,Bangalore,Karnataka,13.002815,77.547095,Tech Park,Bharat DC-001,150.0,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Restroom",Operational,14.24,0
+EV1109,Bangalore Shopping Mall - 5,Ather Grid,Bangalore,Karnataka,13.074834,77.628399,Shopping Mall,CHAdeMO,60.0,3,9 AM - 9 PM,"App, Card, UPI",WiFi,Under Maintenance,8.83,20
+EV1110,Bangalore Tourist Spot - 6,Reliance BP,Bangalore,Karnataka,13.028864,77.74518,Tourist Spot,AC Type 2,7.4,2,24/7,"App, Card, UPI","WiFi, Cafe",Operational,12.32,50
+EV1111,Bangalore Airport - 7,IOCL,Bangalore,Karnataka,13.03017,77.560021,Airport,Bharat DC-001,50.0,1,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.32,50
+EV1112,Bangalore Highway Rest Stop - 8,Ather Grid,Bangalore,Karnataka,13.096917,77.718087,Highway Rest Stop,AC Type 2,7.4,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,11.16,30
+EV1113,Bangalore Airport - 9,Fortum Charge & Drive,Bangalore,Karnataka,12.859933,77.730051,Airport,Bharat DC-001,50.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,8.84,0
+EV1114,Bangalore Restaurant - 10,Fortum Charge & Drive,Bangalore,Karnataka,13.014633,77.582638,Restaurant,Bharat AC-001,11.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.1,0
+EV1115,Bangalore Petrol Pump - 11,Ola Electric,Bangalore,Karnataka,12.946312,77.608214,Petrol Pump,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.46,30
+EV1116,Bangalore Hospital - 12,HPCL,Bangalore,Karnataka,12.904568,77.410567,Hospital,CCS2,100.0,2,24/7,"App, Card, UPI",Cafe,Operational,8.88,50
+EV1117,Bangalore Shopping Mall - 13,Tata Power EZ Charge,Bangalore,Karnataka,12.834467,77.467104,Shopping Mall,Bharat DC-001,50.0,3,24/7,"App, Card, UPI",WiFi,Operational,9.18,50
+EV1118,Bangalore Hotel - 14,HPCL,Bangalore,Karnataka,12.824164,77.517418,Hotel,Bharat DC-001,60.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,12.96,20
+EV1119,Bangalore Residential Complex - 15,Exicom,Bangalore,Karnataka,12.868283,77.653252,Residential Complex,AC Type 2,22.0,2,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.09,0
+EV1120,Bangalore Tech Park - 16,ChargeZone,Bangalore,Karnataka,13.037053,77.760285,Tech Park,AC Type 2,3.3,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,9.81,0
+EV1121,Bangalore Residential Complex - 17,Ather Grid,Bangalore,Karnataka,12.964517,77.793806,Residential Complex,CHAdeMO,50.0,1,24/7,"App, Card, UPI",None,Operational,10.14,20
+EV1122,Bangalore Hotel - 18,BPCL,Bangalore,Karnataka,12.94477,77.512052,Hotel,CHAdeMO,25.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,11.89,0
+EV1123,Bangalore Petrol Pump - 19,Ather Grid,Bangalore,Karnataka,13.061859,77.516808,Petrol Pump,Bharat AC-001,3.3,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.62,0
+EV1124,Bangalore Shopping Mall - 20,BluSmart,Bangalore,Karnataka,12.943085,77.749726,Shopping Mall,CCS2,60.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.94,50
+EV1125,Bangalore Office Complex - 21,Magenta Power,Bangalore,Karnataka,12.998368,77.495884,Office Complex,Bharat AC-001,3.3,3,24/7,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,14.7,50
+EV1126,Bangalore Hospital - 22,Fortum Charge & Drive,Bangalore,Karnataka,13.00259,77.506304,Hospital,Bharat DC-001,60.0,3,9 AM - 9 PM,"App, Card, UPI",Cafe,Operational,10.59,20
+EV1127,Bangalore Hospital - 23,BluSmart,Bangalore,Karnataka,12.918072,77.573639,Hospital,CHAdeMO,100.0,1,8 AM - 10 PM,"App, Card, UPI",None,Operational,13.96,30
+EV1128,Bangalore Hospital - 24,Revolt Motors,Bangalore,Karnataka,12.945161,77.459332,Hospital,Bharat DC-001,150.0,2,24/7,"App, Card, UPI","Restroom, Waiting Area",Operational,13.23,0
+EV1129,Bangalore Metro Station - 25,Ola Electric,Bangalore,Karnataka,12.807115,77.646971,Metro Station,Bharat AC-001,3.3,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,10.78,50
+EV1130,Bangalore Metro Station - 26,ChargeZone,Bangalore,Karnataka,12.827235,77.499834,Metro Station,AC Type 2,11.0,1,8 AM - 10 PM,"App, Card, UPI",Restroom,Operational,13.37,0
+EV1131,Bangalore Hotel - 27,BluSmart,Bangalore,Karnataka,12.906534,77.688745,Hotel,Bharat AC-001,3.3,2,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.01,20
+EV1132,Bangalore Tech Park - 28,Reliance BP,Bangalore,Karnataka,12.97307,77.669958,Tech Park,AC Type 2,11.0,8,24/7,"App, Card, UPI",WiFi,Operational,13.32,20
+EV1133,Bangalore Metro Station - 29,IOCL,Bangalore,Karnataka,13.02731,77.525367,Metro Station,Bharat AC-001,7.4,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,11.8,30
+EV1134,Bangalore Hotel - 30,BluSmart,Bangalore,Karnataka,12.978721,77.616468,Hotel,Bharat AC-001,11.0,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,11.34,20
+EV1135,Bangalore Tech Park - 31,Kazam EV,Bangalore,Karnataka,12.936973,77.569412,Tech Park,Bharat DC-001,50.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.16,50
+EV1136,Bangalore Petrol Pump - 32,Magenta Power,Bangalore,Karnataka,12.937104,77.575415,Petrol Pump,Bharat AC-001,3.3,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe, Restroom, Waiting Area",Operational,14.42,50
+EV1137,Bangalore Metro Station - 33,Reliance BP,Bangalore,Karnataka,13.066851,77.71888,Metro Station,CCS2,100.0,3,9 AM - 9 PM,"App, Card, UPI",Cafe,Operational,14.52,50
+EV1138,Bangalore Airport - 34,Ather Grid,Bangalore,Karnataka,13.06963,77.560423,Airport,CCS2,100.0,2,9 AM - 9 PM,"App, Card, UPI",Restroom,Operational,14.09,30
+EV1139,Bangalore Residential Complex - 35,Tata Power EZ Charge,Bangalore,Karnataka,12.864618,77.704011,Residential Complex,Bharat DC-001,25.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,9.67,50
+EV1140,Bangalore Office Complex - 36,IOCL,Bangalore,Karnataka,13.056627,77.556069,Office Complex,AC Type 2,11.0,8,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.68,0
+EV1141,Bangalore Residential Complex - 37,Statiq,Bangalore,Karnataka,12.888559,77.66037,Residential Complex,CCS2,60.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.15,30
+EV1142,Bangalore Hotel - 38,HPCL,Bangalore,Karnataka,12.957352,77.45224,Hotel,CHAdeMO,60.0,4,24/7,"App, Card, UPI",None,Operational,8.82,20
+EV1143,Bangalore Airport - 39,Revolt Motors,Bangalore,Karnataka,12.8672,77.660519,Airport,Bharat DC-001,25.0,4,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,12.63,50
+EV1144,Bangalore Hotel - 40,IOCL,Bangalore,Karnataka,12.862062,77.52289,Hotel,Bharat AC-001,3.3,1,24/7,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,14.09,20
+EV1145,Bangalore Hospital - 41,Magenta Power,Bangalore,Karnataka,12.961504,77.441314,Hospital,CHAdeMO,50.0,4,9 AM - 9 PM,"App, Card, UPI","Cafe, Restroom",Operational,11.93,20
+EV1146,Bangalore Metro Station - 42,HPCL,Bangalore,Karnataka,13.042947,77.465706,Metro Station,CCS2,100.0,2,9 AM - 9 PM,"App, Card, UPI",Waiting Area,Operational,9.41,20
+EV1147,Bangalore Hotel - 43,Ola Electric,Bangalore,Karnataka,12.992657,77.438538,Hotel,AC Type 2,7.4,3,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,10.79,50
+EV1148,Bangalore Tourist Spot - 44,Reliance BP,Bangalore,Karnataka,12.936608,77.51225,Tourist Spot,AC Type 2,22.0,3,24/7,"App, Card, UPI","Cafe, Restroom",Operational,12.02,20
+EV1149,Bangalore Restaurant - 45,ChargeZone,Bangalore,Karnataka,12.860835,77.455418,Restaurant,Bharat AC-001,22.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Restroom",Operational,8.25,50
+EV1150,Bangalore Tech Park - 46,Statiq,Bangalore,Karnataka,13.073055,77.431196,Tech Park,Bharat DC-001,150.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,10.89,30
+EV1151,Bangalore Residential Complex - 47,BPCL,Bangalore,Karnataka,13.014645,77.752634,Residential Complex,AC Type 2,7.4,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,12.2,30
+EV1152,Bangalore Petrol Pump - 48,Ola Electric,Bangalore,Karnataka,13.053136,77.551233,Petrol Pump,AC Type 2,3.3,1,24/7,"App, Card, UPI","WiFi, Cafe",Operational,10.95,0
+EV1153,Bangalore Shopping Mall - 49,ChargeZone,Bangalore,Karnataka,12.915093,77.606576,Shopping Mall,AC Type 2,3.3,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,13.07,30
+EV1154,Bangalore Residential Complex - 50,HPCL,Bangalore,Karnataka,12.961086,77.413779,Residential Complex,Bharat AC-001,11.0,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,13.58,20
+EV1155,Pune Tech Park - 1,Kazam EV,Pune,Maharashtra,18.639348,73.710713,Tech Park,Bharat AC-001,3.3,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,11.22,30
+EV1156,Pune Residential Complex - 2,ChargeZone,Pune,Maharashtra,18.574927,73.86482,Residential Complex,AC Type 2,11.0,3,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,12.06,0
+EV1157,Pune Metro Station - 3,IOCL,Pune,Maharashtra,18.622294,73.961969,Metro Station,CHAdeMO,25.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,8.97,50
+EV1158,Pune Highway Rest Stop - 4,Magenta Power,Pune,Maharashtra,18.572094,73.83339,Highway Rest Stop,CHAdeMO,60.0,2,24/7,"App, Card, UPI",WiFi,Operational,10.05,50
+EV1159,Pune Shopping Mall - 5,Revolt Motors,Pune,Maharashtra,18.474215,73.998483,Shopping Mall,CHAdeMO,100.0,2,24/7,"App, Card, UPI","WiFi, Cafe",Operational,13.77,0
+EV1160,Pune Metro Station - 6,Fortum Charge & Drive,Pune,Maharashtra,18.610159,73.922069,Metro Station,AC Type 2,22.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,8.83,0
+EV1161,Pune Hospital - 7,Ola Electric,Pune,Maharashtra,18.536895,73.991926,Hospital,Bharat DC-001,150.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,9.97,30
+EV1162,Pune Tourist Spot - 8,Fortum Charge & Drive,Pune,Maharashtra,18.597657,73.755762,Tourist Spot,CCS2,150.0,1,24/7,"App, Card, UPI",Waiting Area,Operational,11.46,30
+EV1163,Pune Tech Park - 9,Statiq,Pune,Maharashtra,18.639209,73.766263,Tech Park,CCS2,150.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.49,20
+EV1164,Pune Metro Station - 10,ChargeZone,Pune,Maharashtra,18.539531,73.955368,Metro Station,Bharat AC-001,22.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,12.02,20
+EV1165,Pune Restaurant - 11,Fortum Charge & Drive,Pune,Maharashtra,18.607019,73.777042,Restaurant,CHAdeMO,25.0,3,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,13.17,20
+EV1166,Pune Airport - 12,BPCL,Pune,Maharashtra,18.541976,73.802408,Airport,Bharat AC-001,22.0,4,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,12.31,30
+EV1167,Pune Office Complex - 13,ChargeZone,Pune,Maharashtra,18.674334,73.93442,Office Complex,CCS2,60.0,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,13.37,0
+EV1168,Pune Petrol Pump - 14,Statiq,Pune,Maharashtra,18.621605,73.883347,Petrol Pump,Bharat AC-001,11.0,4,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,14.52,50
+EV1169,Pune Shopping Mall - 15,Ather Grid,Pune,Maharashtra,18.589033,73.8834,Shopping Mall,Bharat DC-001,60.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,14.62,20
+EV1170,Pune Airport - 16,Statiq,Pune,Maharashtra,18.43269,73.884896,Airport,CHAdeMO,100.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,14.92,0
+EV1171,Pune Petrol Pump - 17,ChargeZone,Pune,Maharashtra,18.472429,73.977889,Petrol Pump,Bharat DC-001,100.0,2,24/7,"App, Card, UPI","WiFi, Waiting Area",Operational,14.52,30
+EV1172,Pune Airport - 18,IOCL,Pune,Maharashtra,18.556316,73.945961,Airport,Bharat AC-001,3.3,6,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,12.65,50
+EV1173,Pune Restaurant - 19,Fortum Charge & Drive,Pune,Maharashtra,18.5203,73.780677,Restaurant,Bharat AC-001,3.3,3,24/7,"App, Card, UPI",WiFi,Operational,9.95,50
+EV1174,Pune Shopping Mall - 20,IOCL,Pune,Maharashtra,18.618188,73.991487,Shopping Mall,Bharat DC-001,60.0,3,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,9.65,50
+EV1175,Pune Airport - 21,Exicom,Pune,Maharashtra,18.495263,73.763849,Airport,CCS2,100.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,11.74,50
+EV1176,Pune Petrol Pump - 22,Statiq,Pune,Maharashtra,18.446244,73.987181,Petrol Pump,CHAdeMO,50.0,4,24/7,"App, Card, UPI",None,Under Maintenance,11.36,20
+EV1177,Pune Residential Complex - 23,Exicom,Pune,Maharashtra,18.588307,73.957855,Residential Complex,Bharat DC-001,60.0,8,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,14.8,30
+EV1178,Pune Shopping Mall - 24,BluSmart,Pune,Maharashtra,18.473579,73.719782,Shopping Mall,CCS2,50.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.04,30
+EV1179,Pune Petrol Pump - 25,Tata Power EZ Charge,Pune,Maharashtra,18.497457,73.95835,Petrol Pump,AC Type 2,11.0,6,24/7,"App, Card, UPI",WiFi,Operational,8.96,50
+EV1180,Pune Tech Park - 26,ChargeZone,Pune,Maharashtra,18.506772,73.97278,Tech Park,Bharat AC-001,22.0,6,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.89,0
+EV1181,Pune Airport - 27,Statiq,Pune,Maharashtra,18.416668,73.958058,Airport,CCS2,60.0,6,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,13.87,0
+EV1182,Pune Tourist Spot - 28,Fortum Charge & Drive,Pune,Maharashtra,18.458868,73.938762,Tourist Spot,AC Type 2,7.4,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,12.32,30
+EV1183,Pune Highway Rest Stop - 29,Ola Electric,Pune,Maharashtra,18.56793,73.97361,Highway Rest Stop,AC Type 2,3.3,2,24/7,"App, Card, UPI","Cafe, Restroom",Operational,9.57,0
+EV1184,Pune Metro Station - 30,HPCL,Pune,Maharashtra,18.498312,73.90687,Metro Station,Bharat DC-001,150.0,1,9 AM - 9 PM,"App, Card, UPI",None,Operational,8.39,20
+EV1185,Pune Petrol Pump - 31,Kazam EV,Pune,Maharashtra,18.605606,73.81262,Petrol Pump,Bharat DC-001,100.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,11.01,50
+EV1186,Pune Hotel - 32,Magenta Power,Pune,Maharashtra,18.431229,73.836693,Hotel,CHAdeMO,100.0,2,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,14.5,20
+EV1187,Pune Restaurant - 33,Ola Electric,Pune,Maharashtra,18.411313,73.807757,Restaurant,CCS2,100.0,6,24/7,"App, Card, UPI",WiFi,Operational,10.55,0
+EV1188,Pune Shopping Mall - 34,ChargeZone,Pune,Maharashtra,18.428627,73.811741,Shopping Mall,AC Type 2,7.4,2,24/7,"App, Card, UPI",WiFi,Operational,13.82,50
+EV1189,Pune Highway Rest Stop - 35,Kazam EV,Pune,Maharashtra,18.679259,73.97325,Highway Rest Stop,Bharat AC-001,11.0,8,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,11.03,0
+EV1190,Hyderabad Hospital - 1,Ather Grid,Hyderabad,Telangana,17.477725,78.467823,Hospital,Bharat AC-001,22.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,14.18,20
+EV1191,Hyderabad Highway Rest Stop - 2,ChargeZone,Hyderabad,Telangana,17.427913,78.384085,Highway Rest Stop,CHAdeMO,100.0,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,10.04,0
+EV1192,Hyderabad Airport - 3,BluSmart,Hyderabad,Telangana,17.452315,78.45232,Airport,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,14.31,30
+EV1193,Hyderabad Shopping Mall - 4,Tata Power EZ Charge,Hyderabad,Telangana,17.412518,78.479776,Shopping Mall,AC Type 2,3.3,4,9 AM - 9 PM,"App, Card, UPI",None,Operational,14.25,30
+EV1194,Hyderabad Highway Rest Stop - 5,Ola Electric,Hyderabad,Telangana,17.321873,78.447749,Highway Rest Stop,CCS2,25.0,2,24/7,"App, Card, UPI",None,Operational,14.96,0
+EV1195,Hyderabad Tech Park - 6,Ather Grid,Hyderabad,Telangana,17.483138,78.33124,Tech Park,Bharat AC-001,11.0,4,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.25,20
+EV1196,Hyderabad Restaurant - 7,Ola Electric,Hyderabad,Telangana,17.414553,78.355188,Restaurant,CCS2,50.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,14.71,30
+EV1197,Hyderabad Tourist Spot - 8,Tata Power EZ Charge,Hyderabad,Telangana,17.413534,78.37102,Tourist Spot,CCS2,150.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.53,30
+EV1198,Hyderabad Metro Station - 9,Tata Power EZ Charge,Hyderabad,Telangana,17.324823,78.389486,Metro Station,Bharat DC-001,25.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,8.59,20
+EV1199,Hyderabad Hospital - 10,BluSmart,Hyderabad,Telangana,17.362956,78.331714,Hospital,AC Type 2,3.3,2,9 AM - 9 PM,"App, Card, UPI",Waiting Area,Operational,8.42,50
+EV1200,Hyderabad Airport - 11,Ola Electric,Hyderabad,Telangana,17.451,78.578949,Airport,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,9.67,20
+EV1201,Hyderabad Residential Complex - 12,BPCL,Hyderabad,Telangana,17.440056,78.548777,Residential Complex,Bharat DC-001,100.0,1,9 AM - 9 PM,"App, Card, UPI",Waiting Area,Operational,11.88,20
+EV1202,Hyderabad Office Complex - 13,Reliance BP,Hyderabad,Telangana,17.486307,78.504015,Office Complex,CCS2,100.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,11.77,30
+EV1203,Hyderabad Tourist Spot - 14,Ather Grid,Hyderabad,Telangana,17.396734,78.355298,Tourist Spot,CCS2,150.0,3,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.81,20
+EV1204,Hyderabad Airport - 15,Statiq,Hyderabad,Telangana,17.452525,78.300363,Airport,AC Type 2,22.0,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.61,20
+EV1205,Hyderabad Metro Station - 16,Tata Power EZ Charge,Hyderabad,Telangana,17.3405,78.346481,Metro Station,Bharat DC-001,60.0,4,24/7,"App, Card, UPI","WiFi, Restroom",Operational,9.71,50
+EV1206,Hyderabad Highway Rest Stop - 17,Tata Power EZ Charge,Hyderabad,Telangana,17.428586,78.303673,Highway Rest Stop,CCS2,25.0,6,24/7,"App, Card, UPI",Restroom,Operational,10.46,50
+EV1207,Hyderabad Tech Park - 18,Ather Grid,Hyderabad,Telangana,17.451341,78.385672,Tech Park,CHAdeMO,60.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,9.63,20
+EV1208,Hyderabad Hotel - 19,HPCL,Hyderabad,Telangana,17.402974,78.355535,Hotel,CCS2,25.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.75,30
+EV1209,Hyderabad Metro Station - 20,BluSmart,Hyderabad,Telangana,17.319396,78.406826,Metro Station,Bharat DC-001,25.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,9.73,30
+EV1210,Hyderabad Restaurant - 21,Fortum Charge & Drive,Hyderabad,Telangana,17.408247,78.354766,Restaurant,AC Type 2,22.0,3,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,14.46,30
+EV1211,Hyderabad Hotel - 22,Magenta Power,Hyderabad,Telangana,17.359362,78.552741,Hotel,Bharat DC-001,25.0,2,24/7,"App, Card, UPI",None,Operational,15.0,20
+EV1212,Hyderabad Hotel - 23,BPCL,Hyderabad,Telangana,17.449562,78.41359,Hotel,AC Type 2,22.0,2,9 AM - 9 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,12.45,30
+EV1213,Hyderabad Restaurant - 24,BPCL,Hyderabad,Telangana,17.468493,78.363001,Restaurant,AC Type 2,11.0,3,8 AM - 10 PM,"App, Card, UPI","Cafe, Restroom",Operational,11.24,20
+EV1214,Hyderabad Hotel - 25,Exicom,Hyderabad,Telangana,17.345647,78.507728,Hotel,CCS2,25.0,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.45,20
+EV1215,Hyderabad Hotel - 26,IOCL,Hyderabad,Telangana,17.35404,78.440046,Hotel,Bharat DC-001,150.0,3,24/7,"App, Card, UPI","Cafe, Restroom",Operational,8.76,0
+EV1216,Hyderabad Airport - 27,Reliance BP,Hyderabad,Telangana,17.41932,78.408675,Airport,Bharat AC-001,7.4,3,24/7,"App, Card, UPI",None,Operational,12.27,30
+EV1217,Hyderabad Petrol Pump - 28,Ather Grid,Hyderabad,Telangana,17.358612,78.403777,Petrol Pump,Bharat AC-001,3.3,3,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,12.15,30
+EV1218,Hyderabad Office Complex - 29,HPCL,Hyderabad,Telangana,17.308045,78.555085,Office Complex,AC Type 2,3.3,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.91,0
+EV1219,Hyderabad Tech Park - 30,Reliance BP,Hyderabad,Telangana,17.408627,78.440757,Tech Park,Bharat DC-001,150.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,9.27,50
+EV1220,Hyderabad Airport - 31,Ather Grid,Hyderabad,Telangana,17.480663,78.514027,Airport,Bharat AC-001,3.3,3,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.44,50
+EV1221,Hyderabad Tech Park - 32,HPCL,Hyderabad,Telangana,17.403573,78.343915,Tech Park,AC Type 2,11.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.9,50
+EV1222,Hyderabad Highway Rest Stop - 33,Magenta Power,Hyderabad,Telangana,17.345263,78.469519,Highway Rest Stop,CCS2,50.0,1,24/7,"App, Card, UPI","WiFi, Waiting Area",Operational,13.52,30
+EV1223,Hyderabad Office Complex - 34,Ola Electric,Hyderabad,Telangana,17.446407,78.421419,Office Complex,Bharat AC-001,22.0,6,6 AM - 11 PM,"App, Card, UPI",None,Operational,13.39,20
+EV1224,Hyderabad Highway Rest Stop - 35,HPCL,Hyderabad,Telangana,17.399152,78.584185,Highway Rest Stop,Bharat DC-001,60.0,1,24/7,"App, Card, UPI","WiFi, Cafe",Operational,14.39,30
+EV1225,Hyderabad Petrol Pump - 36,Revolt Motors,Hyderabad,Telangana,17.418045,78.309874,Petrol Pump,AC Type 2,11.0,2,24/7,"App, Card, UPI",WiFi,Operational,14.2,50
+EV1226,Hyderabad Airport - 37,Kazam EV,Hyderabad,Telangana,17.381991,78.43236,Airport,Bharat DC-001,60.0,4,6 AM - 11 PM,"App, Card, UPI","Cafe, Restroom, Waiting Area",Operational,10.48,0
+EV1227,Hyderabad Airport - 38,HPCL,Hyderabad,Telangana,17.451299,78.320299,Airport,CHAdeMO,150.0,6,24/7,"App, Card, UPI","WiFi, Waiting Area",Operational,13.32,50
+EV1228,Hyderabad Tourist Spot - 39,Fortum Charge & Drive,Hyderabad,Telangana,17.330694,78.560483,Tourist Spot,Bharat DC-001,60.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.1,20
+EV1229,Hyderabad Highway Rest Stop - 40,Reliance BP,Hyderabad,Telangana,17.300838,78.525351,Highway Rest Stop,Bharat AC-001,11.0,3,24/7,"App, Card, UPI",WiFi,Operational,8.65,0
+EV1230,Chennai Highway Rest Stop - 1,IOCL,Chennai,Tamil Nadu,13.101472,80.201194,Highway Rest Stop,CHAdeMO,100.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,10.82,30
+EV1231,Chennai Restaurant - 2,Reliance BP,Chennai,Tamil Nadu,13.116056,80.217392,Restaurant,CHAdeMO,100.0,6,24/7,"App, Card, UPI",Waiting Area,Operational,10.93,20
+EV1232,Chennai Restaurant - 3,Ather Grid,Chennai,Tamil Nadu,12.905627,80.182671,Restaurant,Bharat DC-001,25.0,2,24/7,"App, Card, UPI",None,Operational,12.91,30
+EV1233,Chennai Highway Rest Stop - 4,Statiq,Chennai,Tamil Nadu,13.037099,80.240534,Highway Rest Stop,Bharat DC-001,25.0,4,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.61,50
+EV1234,Chennai Shopping Mall - 5,Fortum Charge & Drive,Chennai,Tamil Nadu,13.086218,80.231036,Shopping Mall,CHAdeMO,150.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,11.39,50
+EV1235,Chennai Tech Park - 6,Exicom,Chennai,Tamil Nadu,13.057517,80.157015,Tech Park,CHAdeMO,100.0,4,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,12.85,0
+EV1236,Chennai Hotel - 7,Magenta Power,Chennai,Tamil Nadu,12.945005,80.233163,Hotel,AC Type 2,3.3,1,9 AM - 9 PM,"App, Card, UPI",None,Operational,8.69,0
+EV1237,Chennai Highway Rest Stop - 8,Fortum Charge & Drive,Chennai,Tamil Nadu,13.142223,80.236263,Highway Rest Stop,CCS2,25.0,1,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,13.57,30
+EV1238,Chennai Hotel - 9,Tata Power EZ Charge,Chennai,Tamil Nadu,12.993568,80.143757,Hotel,Bharat DC-001,60.0,2,24/7,"App, Card, UPI",Cafe,Operational,10.11,50
+EV1239,Chennai Residential Complex - 10,Reliance BP,Chennai,Tamil Nadu,12.994615,80.183504,Residential Complex,Bharat DC-001,60.0,3,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,10.24,20
+EV1240,Chennai Restaurant - 11,Reliance BP,Chennai,Tamil Nadu,12.942122,80.135699,Restaurant,Bharat DC-001,50.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.38,0
+EV1241,Chennai Restaurant - 12,Statiq,Chennai,Tamil Nadu,12.97529,80.180991,Restaurant,CCS2,100.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,11.08,20
+EV1242,Chennai Metro Station - 13,Exicom,Chennai,Tamil Nadu,12.979106,80.134704,Metro Station,Bharat AC-001,3.3,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,14.67,50
+EV1243,Chennai Hotel - 14,Reliance BP,Chennai,Tamil Nadu,13.132779,80.235042,Hotel,AC Type 2,7.4,4,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.07,50
+EV1244,Chennai Office Complex - 15,Tata Power EZ Charge,Chennai,Tamil Nadu,12.998497,80.213456,Office Complex,Bharat DC-001,100.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.48,0
+EV1245,Chennai Tech Park - 16,IOCL,Chennai,Tamil Nadu,12.934693,80.249226,Tech Park,Bharat DC-001,60.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,9.47,50
+EV1246,Chennai Tech Park - 17,Statiq,Chennai,Tamil Nadu,13.097978,80.130982,Tech Park,CHAdeMO,100.0,1,9 AM - 9 PM,"App, Card, UPI",None,Operational,9.24,0
+EV1247,Chennai Hospital - 18,Kazam EV,Chennai,Tamil Nadu,13.130053,80.147047,Hospital,CCS2,60.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,12.9,30
+EV1248,Chennai Office Complex - 19,Ather Grid,Chennai,Tamil Nadu,12.943247,80.278595,Office Complex,Bharat DC-001,50.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,10.3,0
+EV1249,Chennai Metro Station - 20,Kazam EV,Chennai,Tamil Nadu,12.967592,80.16419,Metro Station,CCS2,50.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,8.67,30
+EV1250,Chennai Airport - 21,BPCL,Chennai,Tamil Nadu,13.119407,80.203466,Airport,Bharat AC-001,22.0,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,10.55,30
+EV1251,Chennai Tourist Spot - 22,Kazam EV,Chennai,Tamil Nadu,13.185879,80.154537,Tourist Spot,CCS2,50.0,3,24/7,"App, Card, UPI","WiFi, Restroom",Operational,14.38,30
+EV1252,Chennai Office Complex - 23,Ather Grid,Chennai,Tamil Nadu,13.122348,80.183798,Office Complex,CCS2,60.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.13,20
+EV1253,Chennai Restaurant - 24,Kazam EV,Chennai,Tamil Nadu,12.907284,80.267455,Restaurant,CHAdeMO,60.0,4,9 AM - 9 PM,"App, Card, UPI",Waiting Area,Operational,12.67,30
+EV1254,Chennai Metro Station - 25,HPCL,Chennai,Tamil Nadu,13.009514,80.110384,Metro Station,CHAdeMO,60.0,1,24/7,"App, Card, UPI",Cafe,Operational,10.96,50
+EV1255,Chennai Residential Complex - 26,Ola Electric,Chennai,Tamil Nadu,13.001909,80.175244,Residential Complex,Bharat DC-001,50.0,3,24/7,"App, Card, UPI",None,Operational,14.41,0
+EV1256,Chennai Tech Park - 27,Statiq,Chennai,Tamil Nadu,13.03113,80.114889,Tech Park,CHAdeMO,25.0,3,24/7,"App, Card, UPI",Cafe,Operational,14.58,0
+EV1257,Chennai Residential Complex - 28,HPCL,Chennai,Tamil Nadu,13.168172,80.188177,Residential Complex,CHAdeMO,150.0,4,8 AM - 10 PM,"App, Card, UPI",Waiting Area,Operational,9.59,30
+EV1258,Chennai Highway Rest Stop - 29,Magenta Power,Chennai,Tamil Nadu,13.182795,80.151533,Highway Rest Stop,AC Type 2,22.0,3,9 AM - 9 PM,"App, Card, UPI",None,Operational,11.09,50
+EV1259,Chennai Tourist Spot - 30,Exicom,Chennai,Tamil Nadu,12.952525,80.268302,Tourist Spot,AC Type 2,11.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,11.48,50
+EV1260,Chennai Restaurant - 31,IOCL,Chennai,Tamil Nadu,13.11905,80.175419,Restaurant,AC Type 2,7.4,3,24/7,"App, Card, UPI",WiFi,Operational,13.92,0
+EV1261,Chennai Metro Station - 32,Tata Power EZ Charge,Chennai,Tamil Nadu,13.055885,80.143628,Metro Station,CHAdeMO,60.0,2,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,9.77,0
+EV1262,Chennai Tourist Spot - 33,Reliance BP,Chennai,Tamil Nadu,12.976633,80.262045,Tourist Spot,AC Type 2,3.3,1,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,13.47,0
+EV1263,Chennai Petrol Pump - 34,Reliance BP,Chennai,Tamil Nadu,13.169617,80.188094,Petrol Pump,CHAdeMO,100.0,3,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,11.85,50
+EV1264,Chennai Residential Complex - 35,BPCL,Chennai,Tamil Nadu,12.987138,80.269896,Residential Complex,CCS2,150.0,3,24/7,"App, Card, UPI",WiFi,Operational,11.36,30
+EV1265,Chennai Shopping Mall - 36,Ather Grid,Chennai,Tamil Nadu,13.04229,80.275856,Shopping Mall,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,14.59,0
+EV1266,Chennai Highway Rest Stop - 37,BPCL,Chennai,Tamil Nadu,13.009072,80.150369,Highway Rest Stop,CHAdeMO,25.0,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,13.92,0
+EV1267,Chennai Office Complex - 38,Magenta Power,Chennai,Tamil Nadu,12.979589,80.228715,Office Complex,AC Type 2,3.3,4,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,10.36,30
+EV1268,Ahmedabad Hospital - 1,Revolt Motors,Ahmedabad,Gujarat,23.059925,72.46704,Hospital,CCS2,60.0,2,24/7,"App, Card, UPI",Cafe,Operational,10.77,0
+EV1269,Ahmedabad Restaurant - 2,Kazam EV,Ahmedabad,Gujarat,23.117191,72.646564,Restaurant,CCS2,100.0,3,24/7,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,14.4,30
+EV1270,Ahmedabad Office Complex - 3,Exicom,Ahmedabad,Gujarat,23.092141,72.546531,Office Complex,Bharat DC-001,60.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,10.24,30
+EV1271,Ahmedabad Tech Park - 4,Ola Electric,Ahmedabad,Gujarat,23.177463,72.665574,Tech Park,CCS2,60.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.68,0
+EV1272,Ahmedabad Tourist Spot - 5,Statiq,Ahmedabad,Gujarat,23.170564,72.580227,Tourist Spot,AC Type 2,11.0,6,24/7,"App, Card, UPI","Restroom, Waiting Area",Operational,13.05,30
+EV1273,Ahmedabad Metro Station - 6,BluSmart,Ahmedabad,Gujarat,23.104197,72.57235,Metro Station,CCS2,150.0,2,8 AM - 10 PM,"App, Card, UPI",Waiting Area,Operational,12.86,50
+EV1274,Ahmedabad Tourist Spot - 7,BluSmart,Ahmedabad,Gujarat,23.180039,72.696659,Tourist Spot,Bharat AC-001,7.4,4,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,8.47,50
+EV1275,Ahmedabad Petrol Pump - 8,Ola Electric,Ahmedabad,Gujarat,22.930192,72.462444,Petrol Pump,Bharat DC-001,60.0,2,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,9.09,0
+EV1276,Ahmedabad Restaurant - 9,Ather Grid,Ahmedabad,Gujarat,23.101622,72.467122,Restaurant,Bharat DC-001,100.0,4,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,13.33,20
+EV1277,Ahmedabad Hotel - 10,Revolt Motors,Ahmedabad,Gujarat,23.060605,72.427919,Hotel,CCS2,150.0,3,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,12.01,20
+EV1278,Ahmedabad Petrol Pump - 11,BluSmart,Ahmedabad,Gujarat,23.011201,72.598321,Petrol Pump,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,9.29,20
+EV1279,Ahmedabad Petrol Pump - 12,Magenta Power,Ahmedabad,Gujarat,23.038091,72.497538,Petrol Pump,AC Type 2,11.0,3,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,13.11,30
+EV1280,Ahmedabad Metro Station - 13,Statiq,Ahmedabad,Gujarat,22.981852,72.695508,Metro Station,CHAdeMO,100.0,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,8.64,20
+EV1281,Ahmedabad Highway Rest Stop - 14,Reliance BP,Ahmedabad,Gujarat,23.113106,72.644194,Highway Rest Stop,Bharat AC-001,7.4,4,6 AM - 11 PM,"App, Card, UPI",None,Operational,8.23,50
+EV1282,Ahmedabad Tourist Spot - 15,Magenta Power,Ahmedabad,Gujarat,23.177217,72.664767,Tourist Spot,CHAdeMO,25.0,3,24/7,"App, Card, UPI",WiFi,Operational,12.31,50
+EV1283,Ahmedabad Highway Rest Stop - 16,HPCL,Ahmedabad,Gujarat,23.166967,72.487596,Highway Rest Stop,Bharat AC-001,11.0,3,8 AM - 10 PM,"App, Card, UPI","Cafe, Restroom",Operational,14.32,50
+EV1284,Ahmedabad Highway Rest Stop - 17,Ola Electric,Ahmedabad,Gujarat,23.087356,72.656373,Highway Rest Stop,CHAdeMO,50.0,2,24/7,"App, Card, UPI",None,Operational,10.17,20
+EV1285,Ahmedabad Tech Park - 18,Exicom,Ahmedabad,Gujarat,23.018886,72.55886,Tech Park,Bharat DC-001,100.0,2,24/7,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,10.14,0
+EV1286,Ahmedabad Tourist Spot - 19,Tata Power EZ Charge,Ahmedabad,Gujarat,22.942329,72.425451,Tourist Spot,Bharat DC-001,60.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,13.85,30
+EV1287,Ahmedabad Tourist Spot - 20,Kazam EV,Ahmedabad,Gujarat,22.918253,72.477032,Tourist Spot,Bharat AC-001,7.4,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,9.46,50
+EV1288,Ahmedabad Airport - 21,Kazam EV,Ahmedabad,Gujarat,23.173024,72.498715,Airport,Bharat AC-001,22.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,13.24,20
+EV1289,Ahmedabad Petrol Pump - 22,HPCL,Ahmedabad,Gujarat,22.925093,72.570724,Petrol Pump,CCS2,50.0,2,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,12.58,50
+EV1290,Ahmedabad Hotel - 23,ChargeZone,Ahmedabad,Gujarat,22.96928,72.644313,Hotel,Bharat DC-001,25.0,1,24/7,"App, Card, UPI","Restroom, Waiting Area",Operational,11.34,20
+EV1291,Ahmedabad Hospital - 24,Kazam EV,Ahmedabad,Gujarat,22.903475,72.69143,Hospital,AC Type 2,7.4,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,13.15,50
+EV1292,Ahmedabad Shopping Mall - 25,HPCL,Ahmedabad,Gujarat,22.949363,72.412433,Shopping Mall,Bharat AC-001,22.0,1,24/7,"App, Card, UPI",WiFi,Operational,8.52,50
+EV1293,Ahmedabad Tourist Spot - 26,Ather Grid,Ahmedabad,Gujarat,23.174585,72.536076,Tourist Spot,CHAdeMO,150.0,2,24/7,"App, Card, UPI","WiFi, Cafe",Operational,12.7,0
+EV1294,Ahmedabad Petrol Pump - 27,Magenta Power,Ahmedabad,Gujarat,23.069181,72.57185,Petrol Pump,Bharat DC-001,25.0,3,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,12.89,20
+EV1295,Ahmedabad Office Complex - 28,Ola Electric,Ahmedabad,Gujarat,22.990512,72.678888,Office Complex,CHAdeMO,25.0,3,24/7,"App, Card, UPI",Cafe,Operational,10.7,50
+EV1296,Ahmedabad Petrol Pump - 29,Revolt Motors,Ahmedabad,Gujarat,23.017694,72.59973,Petrol Pump,CCS2,25.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Under Maintenance,13.35,30
+EV1297,Ahmedabad Hospital - 30,Statiq,Ahmedabad,Gujarat,22.992772,72.583075,Hospital,Bharat AC-001,11.0,2,8 AM - 10 PM,"App, Card, UPI",None,Operational,13.44,20
+EV1298,Kolkata Tech Park - 1,BPCL,Kolkata,West Bengal,22.65569,88.455292,Tech Park,AC Type 2,7.4,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.28,30
+EV1299,Kolkata Tech Park - 2,Ola Electric,Kolkata,West Bengal,22.52479,88.386337,Tech Park,Bharat AC-001,22.0,2,24/7,"App, Card, UPI","Cafe, Restroom",Operational,14.72,0
+EV1300,Kolkata Restaurant - 3,Tata Power EZ Charge,Kolkata,West Bengal,22.681524,88.238002,Restaurant,CCS2,25.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,10.05,30
+EV1301,Kolkata Tourist Spot - 4,Kazam EV,Kolkata,West Bengal,22.591502,88.264051,Tourist Spot,CCS2,150.0,3,8 AM - 10 PM,"App, Card, UPI","Cafe, Restroom",Operational,14.7,0
+EV1302,Kolkata Highway Rest Stop - 5,Tata Power EZ Charge,Kolkata,West Bengal,22.470384,88.315142,Highway Rest Stop,AC Type 2,7.4,3,24/7,"App, Card, UPI","WiFi, Restroom",Operational,9.16,20
+EV1303,Kolkata Shopping Mall - 6,Statiq,Kolkata,West Bengal,22.462801,88.295231,Shopping Mall,AC Type 2,7.4,2,9 AM - 9 PM,"App, Card, UPI",None,Operational,12.16,50
+EV1304,Kolkata Highway Rest Stop - 7,HPCL,Kolkata,West Bengal,22.518119,88.497911,Highway Rest Stop,AC Type 2,11.0,3,24/7,"App, Card, UPI",WiFi,Operational,13.65,20
+EV1305,Kolkata Residential Complex - 8,BluSmart,Kolkata,West Bengal,22.559123,88.492072,Residential Complex,AC Type 2,11.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.84,0
+EV1306,Kolkata Tech Park - 9,Kazam EV,Kolkata,West Bengal,22.489911,88.216399,Tech Park,Bharat DC-001,25.0,1,8 AM - 10 PM,"App, Card, UPI",None,Operational,9.71,30
+EV1307,Kolkata Residential Complex - 10,Ola Electric,Kolkata,West Bengal,22.47538,88.389651,Residential Complex,CHAdeMO,150.0,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,14.29,30
+EV1308,Kolkata Petrol Pump - 11,BluSmart,Kolkata,West Bengal,22.610921,88.327188,Petrol Pump,CCS2,100.0,2,24/7,"App, Card, UPI",None,Operational,13.41,0
+EV1309,Kolkata Airport - 12,Fortum Charge & Drive,Kolkata,West Bengal,22.648561,88.475334,Airport,CHAdeMO,100.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.22,20
+EV1310,Kolkata Office Complex - 13,BluSmart,Kolkata,West Bengal,22.631191,88.459566,Office Complex,CHAdeMO,25.0,1,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,11.62,50
+EV1311,Kolkata Airport - 14,BluSmart,Kolkata,West Bengal,22.528172,88.394027,Airport,Bharat DC-001,50.0,3,24/7,"App, Card, UPI",Cafe,Operational,11.3,50
+EV1312,Kolkata Airport - 15,Magenta Power,Kolkata,West Bengal,22.507125,88.323905,Airport,Bharat DC-001,60.0,1,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.45,20
+EV1313,Kolkata Hotel - 16,Ola Electric,Kolkata,West Bengal,22.59498,88.414361,Hotel,Bharat DC-001,60.0,2,24/7,"App, Card, UPI",Waiting Area,Operational,9.34,20
+EV1314,Kolkata Shopping Mall - 17,Magenta Power,Kolkata,West Bengal,22.427552,88.269036,Shopping Mall,Bharat DC-001,50.0,2,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.15,0
+EV1315,Kolkata Highway Rest Stop - 18,Magenta Power,Kolkata,West Bengal,22.421523,88.420445,Highway Rest Stop,CHAdeMO,100.0,1,24/7,"App, Card, UPI",Restroom,Operational,11.96,50
+EV1316,Kolkata Metro Station - 19,Fortum Charge & Drive,Kolkata,West Bengal,22.610819,88.337522,Metro Station,CCS2,25.0,2,24/7,"App, Card, UPI",None,Operational,8.63,20
+EV1317,Kolkata Highway Rest Stop - 20,Tata Power EZ Charge,Kolkata,West Bengal,22.576489,88.290239,Highway Rest Stop,CCS2,100.0,2,24/7,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,14.81,20
+EV1318,Kolkata Shopping Mall - 21,Reliance BP,Kolkata,West Bengal,22.486447,88.361112,Shopping Mall,Bharat AC-001,11.0,1,24/7,"App, Card, UPI","Cafe, Restroom",Operational,14.74,30
+EV1319,Kolkata Airport - 22,HPCL,Kolkata,West Bengal,22.444229,88.361519,Airport,Bharat DC-001,25.0,3,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,13.21,50
+EV1320,Kolkata Tourist Spot - 23,Revolt Motors,Kolkata,West Bengal,22.583284,88.399811,Tourist Spot,CCS2,50.0,6,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,13.19,50
+EV1321,Kolkata Restaurant - 24,IOCL,Kolkata,West Bengal,22.556406,88.31791,Restaurant,CHAdeMO,150.0,1,24/7,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,8.48,0
+EV1322,Kolkata Hotel - 25,Reliance BP,Kolkata,West Bengal,22.660253,88.386043,Hotel,Bharat AC-001,11.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,10.41,20
+EV1323,Kolkata Airport - 26,Revolt Motors,Kolkata,West Bengal,22.571113,88.291206,Airport,Bharat AC-001,11.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,8.12,30
+EV1324,Kolkata Residential Complex - 27,BluSmart,Kolkata,West Bengal,22.581657,88.2412,Residential Complex,CCS2,50.0,2,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,12.53,50
+EV1325,Kolkata Metro Station - 28,ChargeZone,Kolkata,West Bengal,22.681659,88.219388,Metro Station,CHAdeMO,60.0,2,24/7,"App, Card, UPI","WiFi, Waiting Area",Operational,13.88,0
+EV1326,Jaipur Residential Complex - 1,BluSmart,Jaipur,Rajasthan,26.843609,75.717075,Residential Complex,Bharat DC-001,25.0,8,9 AM - 9 PM,"App, Card, UPI","WiFi, Restroom, Waiting Area",Operational,8.79,0
+EV1327,Jaipur Tech Park - 2,Ather Grid,Jaipur,Rajasthan,26.840572,75.789103,Tech Park,CCS2,50.0,1,24/7,"App, Card, UPI",Cafe,Operational,11.03,50
+EV1328,Jaipur Shopping Mall - 3,Ola Electric,Jaipur,Rajasthan,26.897463,75.770598,Shopping Mall,CHAdeMO,25.0,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,10.42,30
+EV1329,Jaipur Petrol Pump - 4,Kazam EV,Jaipur,Rajasthan,26.999158,75.869828,Petrol Pump,CCS2,25.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,13.05,0
+EV1330,Jaipur Hospital - 5,Tata Power EZ Charge,Jaipur,Rajasthan,26.90181,75.722695,Hospital,Bharat DC-001,60.0,2,24/7,"App, Card, UPI",WiFi,Operational,14.46,0
+EV1331,Jaipur Hotel - 6,HPCL,Jaipur,Rajasthan,26.868932,75.830277,Hotel,CHAdeMO,25.0,6,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.78,0
+EV1332,Jaipur Airport - 7,IOCL,Jaipur,Rajasthan,26.905846,75.798188,Airport,Bharat AC-001,11.0,1,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,10.43,30
+EV1333,Jaipur Shopping Mall - 8,Reliance BP,Jaipur,Rajasthan,26.903904,75.742588,Shopping Mall,Bharat DC-001,25.0,6,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,8.13,30
+EV1334,Jaipur Restaurant - 9,Kazam EV,Jaipur,Rajasthan,26.805545,75.858285,Restaurant,AC Type 2,11.0,4,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,12.75,30
+EV1335,Jaipur Hotel - 10,HPCL,Jaipur,Rajasthan,26.916413,75.744561,Hotel,Bharat AC-001,11.0,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,10.14,30
+EV1336,Jaipur Office Complex - 11,HPCL,Jaipur,Rajasthan,26.834351,75.715797,Office Complex,AC Type 2,11.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,13.13,50
+EV1337,Jaipur Shopping Mall - 12,Reliance BP,Jaipur,Rajasthan,26.960631,75.875929,Shopping Mall,CHAdeMO,100.0,8,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,12.25,50
+EV1338,Jaipur Tourist Spot - 13,Fortum Charge & Drive,Jaipur,Rajasthan,26.916959,75.736022,Tourist Spot,Bharat AC-001,22.0,2,24/7,"App, Card, UPI",WiFi,Operational,12.78,50
+EV1339,Jaipur Petrol Pump - 14,Ola Electric,Jaipur,Rajasthan,26.820523,75.781941,Petrol Pump,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.72,0
+EV1340,Jaipur Hospital - 15,BluSmart,Jaipur,Rajasthan,26.961194,75.721607,Hospital,Bharat DC-001,60.0,3,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,8.7,20
+EV1341,Jaipur Hospital - 16,Kazam EV,Jaipur,Rajasthan,26.974308,75.899963,Hospital,Bharat DC-001,60.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,10.4,50
+EV1342,Jaipur Residential Complex - 17,HPCL,Jaipur,Rajasthan,26.898245,75.876262,Residential Complex,CCS2,100.0,3,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,13.9,0
+EV1343,Jaipur Restaurant - 18,BluSmart,Jaipur,Rajasthan,26.978452,75.885772,Restaurant,CCS2,50.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,14.12,0
+EV1344,Jaipur Tech Park - 19,Ola Electric,Jaipur,Rajasthan,26.998101,75.748646,Tech Park,Bharat DC-001,100.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,10.45,0
+EV1345,Jaipur Hotel - 20,ChargeZone,Jaipur,Rajasthan,26.903649,75.727346,Hotel,Bharat AC-001,11.0,2,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,10.75,20
+EV1346,Jaipur Tourist Spot - 21,Exicom,Jaipur,Rajasthan,26.821904,75.87172,Tourist Spot,Bharat DC-001,25.0,1,9 AM - 9 PM,"App, Card, UPI",None,Operational,11.53,30
+EV1347,Jaipur Metro Station - 22,Kazam EV,Jaipur,Rajasthan,26.863989,75.736345,Metro Station,Bharat AC-001,7.4,8,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,14.15,50
+EV1348,Jaipur Tourist Spot - 23,Fortum Charge & Drive,Jaipur,Rajasthan,26.841612,75.794566,Tourist Spot,CHAdeMO,25.0,2,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,12.24,0
+EV1349,Jaipur Metro Station - 24,Statiq,Jaipur,Rajasthan,26.880974,75.747533,Metro Station,Bharat DC-001,50.0,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,14.96,30
+EV1350,Jaipur Office Complex - 25,IOCL,Jaipur,Rajasthan,26.935219,75.758331,Office Complex,Bharat AC-001,22.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,12.13,20
+EV1351,Surat Tech Park - 1,Fortum Charge & Drive,Surat,Gujarat,21.106889,72.888983,Tech Park,Bharat AC-001,22.0,3,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,10.53,50
+EV1352,Surat Shopping Mall - 2,Revolt Motors,Surat,Gujarat,21.206961,72.793085,Shopping Mall,AC Type 2,3.3,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.91,0
+EV1353,Surat Hotel - 3,Statiq,Surat,Gujarat,21.271153,72.70468,Hotel,CCS2,60.0,8,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.47,20
+EV1354,Surat Residential Complex - 4,BluSmart,Surat,Gujarat,21.27651,72.882925,Residential Complex,AC Type 2,11.0,4,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.07,50
+EV1355,Surat Office Complex - 5,Exicom,Surat,Gujarat,21.170901,72.798697,Office Complex,CHAdeMO,100.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.14,50
+EV1356,Surat Metro Station - 6,HPCL,Surat,Gujarat,21.297465,72.825682,Metro Station,Bharat AC-001,11.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,11.9,30
+EV1357,Surat Highway Rest Stop - 7,HPCL,Surat,Gujarat,21.10929,72.841748,Highway Rest Stop,CHAdeMO,100.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,13.47,20
+EV1358,Surat Restaurant - 8,Tata Power EZ Charge,Surat,Gujarat,21.145487,72.875334,Restaurant,CCS2,50.0,1,9 AM - 9 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,10.5,50
+EV1359,Surat Highway Rest Stop - 9,Statiq,Surat,Gujarat,21.102766,72.89583,Highway Rest Stop,AC Type 2,3.3,1,8 AM - 10 PM,"App, Card, UPI",Cafe,Operational,12.04,30
+EV1360,Surat Shopping Mall - 10,Exicom,Surat,Gujarat,21.183331,72.778401,Shopping Mall,CCS2,100.0,8,24/7,"App, Card, UPI","WiFi, Cafe",Operational,9.71,0
+EV1361,Surat Hotel - 11,Ola Electric,Surat,Gujarat,21.266574,72.815304,Hotel,CHAdeMO,60.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.77,30
+EV1362,Surat Shopping Mall - 12,Reliance BP,Surat,Gujarat,21.227382,72.742296,Shopping Mall,Bharat AC-001,7.4,8,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,14.7,50
+EV1363,Surat Hotel - 13,IOCL,Surat,Gujarat,21.162834,72.807238,Hotel,AC Type 2,3.3,2,9 AM - 9 PM,"App, Card, UPI",WiFi,Operational,13.2,20
+EV1364,Surat Metro Station - 14,IOCL,Surat,Gujarat,21.11151,72.879112,Metro Station,CCS2,60.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.5,0
+EV1365,Surat Shopping Mall - 15,ChargeZone,Surat,Gujarat,21.179494,72.888691,Shopping Mall,Bharat DC-001,150.0,3,9 AM - 9 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,11.43,50
+EV1366,Surat Metro Station - 16,Revolt Motors,Surat,Gujarat,21.271639,72.755415,Metro Station,Bharat DC-001,150.0,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,12.27,0
+EV1367,Surat Office Complex - 17,BluSmart,Surat,Gujarat,21.108106,72.800403,Office Complex,Bharat AC-001,22.0,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,10.57,50
+EV1368,Surat Airport - 18,ChargeZone,Surat,Gujarat,21.201667,72.725313,Airport,Bharat DC-001,25.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,13.94,20
+EV1369,Surat Airport - 19,BluSmart,Surat,Gujarat,21.187547,72.857747,Airport,Bharat DC-001,100.0,4,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,13.68,0
+EV1370,Surat Tourist Spot - 20,HPCL,Surat,Gujarat,21.18635,72.882775,Tourist Spot,Bharat DC-001,60.0,3,24/7,"App, Card, UPI",WiFi,Operational,8.04,30
+EV1371,Surat Tourist Spot - 21,ChargeZone,Surat,Gujarat,21.235029,72.869149,Tourist Spot,AC Type 2,7.4,1,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.61,50
+EV1372,Surat Office Complex - 22,Tata Power EZ Charge,Surat,Gujarat,21.237992,72.843427,Office Complex,CCS2,150.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,11.98,30
+EV1373,Chandigarh Highway Rest Stop - 1,Ather Grid,Chandigarh,Chandigarh,30.756195,76.703393,Highway Rest Stop,CCS2,100.0,1,8 AM - 10 PM,"App, Card, UPI",None,Operational,10.22,30
+EV1374,Chandigarh Residential Complex - 2,Kazam EV,Chandigarh,Chandigarh,30.714075,76.741237,Residential Complex,CHAdeMO,50.0,1,9 AM - 9 PM,"App, Card, UPI",WiFi,Operational,10.92,30
+EV1375,Chandigarh Airport - 3,Ather Grid,Chandigarh,Chandigarh,30.672614,76.795989,Airport,CHAdeMO,100.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,14.23,50
+EV1376,Chandigarh Petrol Pump - 4,BluSmart,Chandigarh,Chandigarh,30.69382,76.854325,Petrol Pump,CCS2,60.0,4,24/7,"App, Card, UPI",Cafe,Operational,14.14,30
+EV1377,Chandigarh Tech Park - 5,HPCL,Chandigarh,Chandigarh,30.744038,76.732997,Tech Park,CHAdeMO,60.0,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,14.83,50
+EV1378,Chandigarh Airport - 6,Revolt Motors,Chandigarh,Chandigarh,30.627929,76.837825,Airport,CCS2,100.0,2,24/7,"App, Card, UPI","Cafe, Waiting Area",Operational,9.2,50
+EV1379,Chandigarh Office Complex - 7,Exicom,Chandigarh,Chandigarh,30.695653,76.838084,Office Complex,Bharat DC-001,60.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,12.63,50
+EV1380,Chandigarh Office Complex - 8,HPCL,Chandigarh,Chandigarh,30.692485,76.827037,Office Complex,Bharat DC-001,25.0,1,8 AM - 10 PM,"App, Card, UPI",None,Operational,8.43,20
+EV1381,Chandigarh Tech Park - 9,ChargeZone,Chandigarh,Chandigarh,30.782895,76.867658,Tech Park,AC Type 2,11.0,3,24/7,"App, Card, UPI",None,Operational,10.32,20
+EV1382,Chandigarh Shopping Mall - 10,HPCL,Chandigarh,Chandigarh,30.743652,76.8455,Shopping Mall,AC Type 2,7.4,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,9.86,50
+EV1383,Chandigarh Metro Station - 11,Fortum Charge & Drive,Chandigarh,Chandigarh,30.669251,76.874439,Metro Station,Bharat AC-001,11.0,1,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,10.23,0
+EV1384,Chandigarh Metro Station - 12,BluSmart,Chandigarh,Chandigarh,30.687256,76.748594,Metro Station,Bharat AC-001,3.3,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.0,50
+EV1385,Chandigarh Highway Rest Stop - 13,Revolt Motors,Chandigarh,Chandigarh,30.753307,76.895195,Highway Rest Stop,CHAdeMO,60.0,2,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,14.22,20
+EV1386,Chandigarh Residential Complex - 14,Revolt Motors,Chandigarh,Chandigarh,30.760346,76.790823,Residential Complex,AC Type 2,11.0,2,24/7,"App, Card, UPI",None,Operational,8.27,50
+EV1387,Chandigarh Metro Station - 15,Ather Grid,Chandigarh,Chandigarh,30.742759,76.703863,Metro Station,CCS2,150.0,2,24/7,"App, Card, UPI",WiFi,Operational,10.72,50
+EV1388,Chandigarh Tourist Spot - 16,BluSmart,Chandigarh,Chandigarh,30.64707,76.880535,Tourist Spot,CHAdeMO,50.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.89,30
+EV1389,Chandigarh Petrol Pump - 17,Exicom,Chandigarh,Chandigarh,30.64367,76.875996,Petrol Pump,AC Type 2,22.0,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,9.66,0
+EV1390,Chandigarh Residential Complex - 18,Ola Electric,Chandigarh,Chandigarh,30.694757,76.701968,Residential Complex,Bharat AC-001,22.0,1,24/7,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,12.27,0
+EV1391,Chandigarh Residential Complex - 19,HPCL,Chandigarh,Chandigarh,30.636772,76.799008,Residential Complex,AC Type 2,3.3,2,24/7,"App, Card, UPI","Cafe, Waiting Area",Operational,12.05,20
+EV1392,Chandigarh Office Complex - 20,Ather Grid,Chandigarh,Chandigarh,30.728379,76.899693,Office Complex,Bharat AC-001,7.4,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,13.7,30
+EV1393,Lucknow Petrol Pump - 1,Revolt Motors,Lucknow,Uttar Pradesh,26.806713,80.911515,Petrol Pump,Bharat AC-001,22.0,2,9 AM - 9 PM,"App, Card, UPI","WiFi, Restroom",Operational,13.93,50
+EV1394,Lucknow Hospital - 2,ChargeZone,Lucknow,Uttar Pradesh,26.894393,81.058842,Hospital,AC Type 2,3.3,2,6 AM - 11 PM,"App, Card, UPI",None,Operational,11.21,30
+EV1395,Lucknow Petrol Pump - 3,Statiq,Lucknow,Uttar Pradesh,26.866515,80.863269,Petrol Pump,Bharat AC-001,7.4,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,8.46,30
+EV1396,Lucknow Hospital - 4,BPCL,Lucknow,Uttar Pradesh,26.793578,80.876675,Hospital,Bharat AC-001,7.4,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,13.62,50
+EV1397,Lucknow Tech Park - 5,BPCL,Lucknow,Uttar Pradesh,26.840775,80.999561,Tech Park,AC Type 2,3.3,3,24/7,"App, Card, UPI","WiFi, Cafe",Operational,14.26,30
+EV1398,Lucknow Office Complex - 6,Fortum Charge & Drive,Lucknow,Uttar Pradesh,26.757043,81.012985,Office Complex,Bharat AC-001,3.3,4,8 AM - 10 PM,"App, Card, UPI",Restroom,Operational,9.78,50
+EV1399,Lucknow Hospital - 7,IOCL,Lucknow,Uttar Pradesh,26.727558,80.907213,Hospital,Bharat DC-001,60.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Restroom",Operational,14.42,20
+EV1400,Lucknow Hospital - 8,Fortum Charge & Drive,Lucknow,Uttar Pradesh,26.766246,81.072976,Hospital,AC Type 2,3.3,2,9 AM - 9 PM,"App, Card, UPI",WiFi,Operational,13.37,50
+EV1401,Lucknow Hospital - 9,Ather Grid,Lucknow,Uttar Pradesh,26.82906,81.067534,Hospital,Bharat AC-001,7.4,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,14.83,30
+EV1402,Lucknow Restaurant - 10,HPCL,Lucknow,Uttar Pradesh,26.788381,80.906577,Restaurant,CCS2,150.0,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.03,30
+EV1403,Lucknow Office Complex - 11,BluSmart,Lucknow,Uttar Pradesh,26.83487,81.060044,Office Complex,Bharat AC-001,3.3,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,13.77,20
+EV1404,Lucknow Tech Park - 12,BluSmart,Lucknow,Uttar Pradesh,26.874066,81.000825,Tech Park,Bharat DC-001,50.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,10.4,20
+EV1405,Lucknow Residential Complex - 13,ChargeZone,Lucknow,Uttar Pradesh,26.885153,81.018675,Residential Complex,CHAdeMO,100.0,6,8 AM - 10 PM,"App, Card, UPI",WiFi,Operational,9.93,30
+EV1406,Lucknow Tech Park - 14,Exicom,Lucknow,Uttar Pradesh,26.777609,80.983743,Tech Park,CHAdeMO,100.0,2,6 AM - 11 PM,"App, Card, UPI","Cafe, Restroom",Operational,8.42,20
+EV1407,Lucknow Metro Station - 15,Ola Electric,Lucknow,Uttar Pradesh,26.735817,80.959372,Metro Station,CCS2,150.0,1,8 AM - 10 PM,"App, Card, UPI",None,Operational,11.88,30
+EV1408,Lucknow Shopping Mall - 16,Revolt Motors,Lucknow,Uttar Pradesh,26.80471,80.847539,Shopping Mall,CCS2,60.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,14.83,30
+EV1409,Lucknow Hotel - 17,IOCL,Lucknow,Uttar Pradesh,26.738216,80.881626,Hotel,AC Type 2,7.4,3,9 AM - 9 PM,"App, Card, UPI","WiFi, Cafe",Operational,9.23,0
+EV1410,Lucknow Airport - 18,BluSmart,Lucknow,Uttar Pradesh,26.77969,81.062329,Airport,AC Type 2,7.4,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,11.12,30
+EV1411,Kochi Metro Station - 1,Kazam EV,Kochi,Kerala,9.977012,76.256249,Metro Station,Bharat AC-001,11.0,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.19,20
+EV1412,Kochi Residential Complex - 2,Exicom,Kochi,Kerala,9.947714,76.290072,Residential Complex,CCS2,100.0,1,6 AM - 11 PM,"App, Card, UPI",Restroom,Operational,8.76,50
+EV1413,Kochi Tech Park - 3,BPCL,Kochi,Kerala,9.929379,76.34137,Tech Park,Bharat AC-001,11.0,2,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,9.05,0
+EV1414,Kochi Metro Station - 4,ChargeZone,Kochi,Kerala,10.010903,76.338502,Metro Station,AC Type 2,3.3,8,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.64,50
+EV1415,Kochi Residential Complex - 5,Reliance BP,Kochi,Kerala,9.956822,76.342132,Residential Complex,CHAdeMO,100.0,4,24/7,"App, Card, UPI","WiFi, Cafe",Operational,13.91,20
+EV1416,Kochi Hospital - 6,BPCL,Kochi,Kerala,10.04984,76.22304,Hospital,CHAdeMO,150.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe, Restroom",Operational,13.23,20
+EV1417,Kochi Office Complex - 7,Statiq,Kochi,Kerala,10.013096,76.211175,Office Complex,CHAdeMO,60.0,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.63,30
+EV1418,Kochi Tech Park - 8,Ather Grid,Kochi,Kerala,9.94293,76.349897,Tech Park,Bharat AC-001,7.4,1,6 AM - 11 PM,"App, Card, UPI",None,Operational,14.83,0
+EV1419,Kochi Metro Station - 9,Revolt Motors,Kochi,Kerala,9.94742,76.233749,Metro Station,AC Type 2,11.0,1,24/7,"App, Card, UPI",Waiting Area,Operational,11.26,50
+EV1420,Kochi Residential Complex - 10,ChargeZone,Kochi,Kerala,10.043202,76.306188,Residential Complex,CHAdeMO,25.0,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Cafe",Operational,8.27,0
+EV1421,Kochi Residential Complex - 11,ChargeZone,Kochi,Kerala,10.072234,76.219726,Residential Complex,Bharat DC-001,50.0,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,9.4,0
+EV1422,Kochi Airport - 12,Magenta Power,Kochi,Kerala,10.052859,76.250023,Airport,CCS2,150.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,12.25,30
+EV1423,Kochi Tech Park - 13,Ola Electric,Kochi,Kerala,9.915526,76.254991,Tech Park,Bharat DC-001,60.0,3,8 AM - 10 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,13.23,0
+EV1424,Kochi Hospital - 14,Fortum Charge & Drive,Kochi,Kerala,10.028113,76.307054,Hospital,Bharat AC-001,22.0,2,8 AM - 10 PM,"App, Card, UPI",Waiting Area,Operational,9.74,0
+EV1425,Kochi Hotel - 15,Exicom,Kochi,Kerala,9.921239,76.313401,Hotel,Bharat DC-001,60.0,4,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,10.02,50
+EV1426,Kochi Tech Park - 16,Ather Grid,Kochi,Kerala,9.967036,76.253743,Tech Park,CHAdeMO,150.0,2,8 AM - 10 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,11.3,50
+EV1427,Kochi Airport - 17,Exicom,Kochi,Kerala,10.053224,76.291517,Airport,CCS2,100.0,2,24/7,"App, Card, UPI","WiFi, Restroom",Operational,14.02,20
+EV1428,Kochi Shopping Mall - 18,Ola Electric,Kochi,Kerala,9.970464,76.322804,Shopping Mall,AC Type 2,22.0,2,24/7,"App, Card, UPI",None,Operational,14.49,0
+EV1429,Kochi Highway Rest Stop - 19,BluSmart,Kochi,Kerala,10.073668,76.2557,Highway Rest Stop,Bharat AC-001,11.0,1,24/7,"App, Card, UPI","WiFi, Cafe, Waiting Area",Operational,13.74,30
+EV1430,Kochi Hotel - 20,IOCL,Kochi,Kerala,9.905853,76.37201,Hotel,Bharat DC-001,150.0,3,6 AM - 11 PM,"App, Card, UPI",Cafe,Operational,11.48,50
+EV1431,Indore Residential Complex - 1,Tata Power EZ Charge,Indore,Madhya Pradesh,22.737817,75.729859,Residential Complex,Bharat AC-001,22.0,1,24/7,"App, Card, UPI","WiFi, Waiting Area",Operational,10.6,20
+EV1432,Indore Restaurant - 2,BPCL,Indore,Madhya Pradesh,22.711434,75.882093,Restaurant,CCS2,25.0,4,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,11.47,50
+EV1433,Indore Hotel - 3,Magenta Power,Indore,Madhya Pradesh,22.644736,75.773711,Hotel,Bharat AC-001,3.3,1,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,14.85,50
+EV1434,Indore Office Complex - 4,ChargeZone,Indore,Madhya Pradesh,22.715136,75.730323,Office Complex,Bharat AC-001,3.3,1,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.66,30
+EV1435,Indore Shopping Mall - 5,Ather Grid,Indore,Madhya Pradesh,22.631622,75.834195,Shopping Mall,AC Type 2,22.0,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,14.52,50
+EV1436,Indore Tech Park - 6,HPCL,Indore,Madhya Pradesh,22.645371,75.790675,Tech Park,AC Type 2,11.0,2,24/7,"App, Card, UPI","Cafe, Restroom",Operational,9.79,0
+EV1437,Indore Highway Rest Stop - 7,Statiq,Indore,Madhya Pradesh,22.79996,75.827537,Highway Rest Stop,CHAdeMO,25.0,2,24/7,"App, Card, UPI",WiFi,Operational,8.53,50
+EV1438,Indore Residential Complex - 8,Reliance BP,Indore,Madhya Pradesh,22.754282,75.704301,Residential Complex,AC Type 2,22.0,2,6 AM - 11 PM,"App, Card, UPI",Waiting Area,Operational,11.78,50
+EV1439,Indore Hospital - 9,Magenta Power,Indore,Madhya Pradesh,22.664947,75.797816,Hospital,Bharat DC-001,60.0,2,6 AM - 11 PM,"App, Card, UPI",WiFi,Operational,12.97,0
+EV1440,Indore Metro Station - 10,Reliance BP,Indore,Madhya Pradesh,22.73495,75.790321,Metro Station,AC Type 2,3.3,1,9 AM - 9 PM,"App, Card, UPI",None,Operational,11.23,30
+EV1441,Indore Restaurant - 11,Ola Electric,Indore,Madhya Pradesh,22.608969,75.73351,Restaurant,CCS2,25.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,11.73,30
+EV1442,Indore Restaurant - 12,Revolt Motors,Indore,Madhya Pradesh,22.676185,75.765068,Restaurant,Bharat DC-001,25.0,2,24/7,"App, Card, UPI","WiFi, Cafe",Operational,10.66,50
+EV1443,Indore Office Complex - 13,HPCL,Indore,Madhya Pradesh,22.682012,75.798342,Office Complex,AC Type 2,7.4,3,9 AM - 9 PM,"App, Card, UPI",Cafe,Operational,13.45,30
+EV1444,Indore Hotel - 14,Tata Power EZ Charge,Indore,Madhya Pradesh,22.690846,75.888276,Hotel,Bharat DC-001,25.0,1,6 AM - 11 PM,"App, Card, UPI",WiFi,Under Maintenance,10.71,20
+EV1445,Indore Restaurant - 15,Revolt Motors,Indore,Madhya Pradesh,22.648952,75.876004,Restaurant,Bharat AC-001,7.4,1,6 AM - 11 PM,"App, Card, UPI","Cafe, Waiting Area",Operational,8.52,20
+EV1446,Bhopal Hotel - 1,Statiq,Bhopal,Madhya Pradesh,23.245321,77.489913,Hotel,Bharat DC-001,50.0,3,24/7,"App, Card, UPI","Cafe, Restroom, Waiting Area",Operational,11.07,30
+EV1447,Bhopal Office Complex - 2,Tata Power EZ Charge,Bhopal,Madhya Pradesh,23.196506,77.370764,Office Complex,Bharat AC-001,7.4,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Waiting Area",Operational,12.58,30
+EV1448,Bhopal Airport - 3,Reliance BP,Bhopal,Madhya Pradesh,23.280246,77.476399,Airport,CCS2,100.0,2,9 AM - 9 PM,"App, Card, UPI",WiFi,Operational,8.74,30
+EV1449,Bhopal Airport - 4,Ola Electric,Bhopal,Madhya Pradesh,23.265556,77.402216,Airport,Bharat AC-001,7.4,3,24/7,"App, Card, UPI",Waiting Area,Operational,8.1,30
+EV1450,Bhopal Shopping Mall - 5,Fortum Charge & Drive,Bhopal,Madhya Pradesh,23.290506,77.410622,Shopping Mall,Bharat DC-001,150.0,1,8 AM - 10 PM,"App, Card, UPI",None,Under Maintenance,12.6,0
+EV1451,Bhopal Shopping Mall - 6,IOCL,Bhopal,Madhya Pradesh,23.101609,77.347356,Shopping Mall,Bharat DC-001,100.0,1,24/7,"App, Card, UPI",Restroom,Operational,10.15,0
+EV1452,Bhopal Residential Complex - 7,ChargeZone,Bhopal,Madhya Pradesh,23.210181,77.402934,Residential Complex,CCS2,150.0,2,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,8.86,0
+EV1453,Bhopal Office Complex - 8,HPCL,Bhopal,Madhya Pradesh,23.124247,77.479649,Office Complex,Bharat AC-001,22.0,1,24/7,"App, Card, UPI",WiFi,Operational,12.21,50
+EV1454,Bhopal Hotel - 9,Exicom,Bhopal,Madhya Pradesh,23.202572,77.306371,Hotel,CCS2,60.0,3,6 AM - 11 PM,"App, Card, UPI",None,Operational,12.97,30
+EV1455,Bhopal Tech Park - 10,Kazam EV,Bhopal,Madhya Pradesh,23.265237,77.400802,Tech Park,Bharat AC-001,7.4,4,6 AM - 11 PM,"App, Card, UPI","WiFi, Restroom",Operational,10.58,50
+EV1456,Bhopal Highway Rest Stop - 11,ChargeZone,Bhopal,Madhya Pradesh,23.158773,77.311369,Highway Rest Stop,Bharat AC-001,7.4,3,8 AM - 10 PM,"App, Card, UPI","WiFi, Restroom",Operational,10.47,30
+EV1457,Bhopal Airport - 12,Tata Power EZ Charge,Bhopal,Madhya Pradesh,23.115133,77.458321,Airport,CCS2,25.0,3,6 AM - 11 PM,"App, Card, UPI","WiFi, Cafe",Operational,12.96,20

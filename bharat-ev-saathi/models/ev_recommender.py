@@ -426,27 +426,27 @@ class EVRecommender:
                 reasons.append(f"🎁 FAME subsidy: Save ₹{ev.get('central_subsidy_inr', 0):,}")
             
             recommendations.append({
-                'brand': ev['brand'],
-                'model': ev['model'],
-                'price': ev['price_inr'],
-                'range': ev['range_km'],
-                'battery_kwh': ev['battery_kwh'],
-                'type': ev['type'],
-                'segment': ev['segment'],
-                'ml_confidence': round(max_probs[idx] * 100, 1),
-                'predicted_segment': predicted_segments[idx],
-                'total_score': round(total_score, 2),
-                'ml_score': round(ml_score, 2),
-                'range_score': round(range_score, 2),
-                'price_score': round(price_score, 2),
-                'efficiency_score': round(efficiency_score, 2),
+                'brand': str(ev['brand']),
+                'model': str(ev['model']),
+                'price': int(ev['price_inr']),
+                'range': int(ev['range_km']),
+                'battery_kwh': float(ev['battery_kwh']),
+                'type': str(ev['type']),
+                'segment': str(ev['segment']),
+                'ml_confidence': round(float(max_probs[idx]) * 100, 1),
+                'predicted_segment': str(predicted_segments[idx]),
+                'total_score': round(float(total_score), 2),
+                'ml_score': round(float(ml_score), 2),
+                'range_score': round(float(range_score), 2),
+                'price_score': round(float(price_score), 2),
+                'efficiency_score': round(float(efficiency_score), 2),
                 'reasons': reasons,
-                'efficiency': ev['efficiency_km_per_kwh'],
-                'top_speed': ev['top_speed'],
-                'charging_time': ev['charging_time'],
-                'fame_eligible': ev.get('fame_eligible', 'No'),
-                'subsidy': ev.get('central_subsidy_inr', 0),
-                'user_rating': ev.get('user_rating', 0)
+                'efficiency': float(ev['efficiency_km_per_kwh']),
+                'top_speed': int(ev['top_speed']) if pd.notna(ev['top_speed']) else 0,
+                'charging_time': float(ev['charging_time']) if pd.notna(ev['charging_time']) else 0,
+                'fame_eligible': str(ev.get('fame_eligible', 'No')),
+                'subsidy': int(ev.get('central_subsidy_inr', 0)),
+                'user_rating': float(ev.get('user_rating', 0))
             })
         
         # Sort by total score

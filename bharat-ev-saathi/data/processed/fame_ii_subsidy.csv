@@ -1,0 +1,4 @@
+vehicle_type,subsidy_per_kwh,max_subsidy,min_battery_kwh,max_price,conditions,valid_until
+2-Wheeler,15000,15000,2,150000,"Battery ≥2 kWh, Price ≤₹1.5L",2024-03-31
+3-Wheeler,10000,50000,0,0,"₹10k/kWh up to ₹50k",2024-03-31
+4-Wheeler,10000,150000,0,1500000,"₹10k/kWh up to ₹1.5L",2024-03-31
