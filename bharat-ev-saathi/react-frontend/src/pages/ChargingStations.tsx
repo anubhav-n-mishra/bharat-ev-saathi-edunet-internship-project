@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MapPin, Search, Zap, Navigation } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -17,7 +17,7 @@ const chargingIcon = new L.Icon({
   iconUrl: 'data:image/svg+xml;base64,' + btoa(`
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-    </svg>
+    </svg>S
   `),
   iconSize: [32, 32],
   iconAnchor: [16, 32],
@@ -64,7 +64,7 @@ const ChargingStations = () => {
         
         // Extract unique cities
         const uniqueCities = [...new Set(data.stations.map((s: ChargingStation) => s.city))].sort();
-        setCities(uniqueCities);
+        setCities(uniqueCities as string[]);
       }
     } catch (error) {
       console.error('Error fetching charging stations:', error);
@@ -205,7 +205,7 @@ const ChargingStations = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Map */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden h-[600px]">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+            <div className="bg-linear-to-r from-blue-600 to-purple-600 text-white p-4">
               <h3 className="font-semibold flex items-center gap-2">
                 <Navigation size={20} />
                 Interactive Map
@@ -257,7 +257,7 @@ const ChargingStations = () => {
 
           {/* Station List */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden h-[600px] flex flex-col">
-            <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-4">
+            <div className="bg-linear-to-r from-green-600 to-blue-600 text-white p-4">
               <h3 className="font-semibold flex items-center gap-2">
                 <MapPin size={20} />
                 Station List
@@ -277,7 +277,7 @@ const ChargingStations = () => {
                     className="border border-gray-200 rounded-lg p-4 hover:border-blue-400 hover:shadow-md transition-all cursor-pointer"
                   >
                     <div className="flex items-start gap-3">
-                      <div className="flex-shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                      <div className="shrink-0 w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                         <Zap className="text-blue-600" size={20} />
                       </div>
                       <div className="flex-1">
@@ -317,24 +317,24 @@ const ChargingStations = () => {
 
         {/* Quick Stats */}
         <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
-          <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-6 text-white">
+          <div className="bg-linear-to-br from-blue-500 to-blue-600 rounded-xl p-6 text-white">
             <Zap className="mb-3" size={32} />
             <p className="text-3xl font-bold">{stations.length}</p>
             <p className="text-blue-100">Total Stations</p>
           </div>
-          <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-6 text-white">
+          <div className="bg-linear-to-br from-green-500 to-green-600 rounded-xl p-6 text-white">
             <MapPin className="mb-3" size={32} />
             <p className="text-3xl font-bold">{cities.length}</p>
             <p className="text-green-100">Cities Covered</p>
           </div>
-          <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl p-6 text-white">
+          <div className="bg-linear-to-br from-purple-500 to-purple-600 rounded-xl p-6 text-white">
             <Navigation className="mb-3" size={32} />
             <p className="text-3xl font-bold">
               {[...new Set(stations.map(s => s.state))].length}
             </p>
             <p className="text-purple-100">States</p>
           </div>
-          <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl p-6 text-white">
+          <div className="bg-linear-to-br from-orange-500 to-orange-600 rounded-xl p-6 text-white">
             <Search className="mb-3" size={32} />
             <p className="text-3xl font-bold">{filteredStations.length}</p>
             <p className="text-orange-100">Filtered Results</p>

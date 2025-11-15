@@ -124,7 +124,7 @@ const Chatbot = () => {
 
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           {/* Chat Header */}
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 flex justify-between items-center">
+          <div className="bg-linear-to-r from-blue-600 to-purple-600 text-white p-4 flex justify-between items-center">
             <div className="flex items-center gap-3">
               <Bot size={24} />
               <div>
@@ -149,7 +149,7 @@ const Chatbot = () => {
                 className={`flex gap-3 ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`}
               >
                 {message.sender === 'bot' && (
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                  <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
                     <Bot size={18} className="text-white" />
                   </div>
                 )}
@@ -161,7 +161,7 @@ const Chatbot = () => {
                       : 'bg-white text-gray-800 rounded-tl-none shadow-md'
                   }`}
                 >
-                  <div className="whitespace-pre-wrap break-words leading-relaxed">
+                  <div className="whitespace-pre-wrap wrap-break-word leading-relaxed">
                     {message.content.split('\n').map((line, idx) => {
                       // Bold headers (lines with **)
                       if (line.includes('**')) {
@@ -196,7 +196,7 @@ const Chatbot = () => {
                 </div>
 
                 {message.sender === 'user' && (
-                  <div className="flex-shrink-0 w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
+                  <div className="shrink-0 w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
                     <User size={18} className="text-white" />
                   </div>
                 )}
@@ -205,7 +205,7 @@ const Chatbot = () => {
 
             {isLoading && (
               <div className="flex gap-3 justify-start">
-                <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                <div className="shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
                   <Bot size={18} className="text-white" />
                 </div>
                 <div className="bg-white rounded-2xl rounded-tl-none px-4 py-3 shadow-md">

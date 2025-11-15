@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Calculator, IndianRupee, Car, Bike, TrendingDown, Info, CheckCircle2 } from 'lucide-react';
 
 interface SubsidyResult {
