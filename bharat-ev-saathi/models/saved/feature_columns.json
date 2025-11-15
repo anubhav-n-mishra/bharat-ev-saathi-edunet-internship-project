@@ -1,0 +1,19 @@
+{
+  "features": [
+    "price_inr",
+    "range_km",
+    "battery_kwh",
+    "top_speed",
+    "charging_time",
+    "efficiency_km_per_kwh",
+    "seating_capacity",
+    "price_per_kwh",
+    "range_per_kwh",
+    "efficiency_score",
+    "value_score",
+    "charging_speed",
+    "type_encoded",
+    "fame_encoded",
+    "is_premium"
+  ]
+}

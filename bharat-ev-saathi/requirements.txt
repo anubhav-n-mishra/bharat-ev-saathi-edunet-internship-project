@@ -9,8 +9,9 @@ matplotlib==3.8.2
 seaborn==0.13.0
 plotly==5.18.0
 
-# Deep Learning (Optional for advanced models)
-# tensorflow==2.15.0  # Uncomment if needed
+# Deep Learning (Required for advanced models)
+tensorflow==2.15.0
+keras==2.15.0
 
 # Web Framework
 streamlit==1.29.0

@@ -1,0 +1,91 @@
+{
+  "model_type": "Voting Ensemble (RF + GB + RF)",
+  "train_accuracy": 1.0,
+  "test_accuracy": 0.6666666666666666,
+  "f1_score": 0.6222222222222221,
+  "cv_mean": 0.7206349206349206,
+  "cv_std": 0.008979133729352952,
+  "num_features": 15,
+  "num_classes": 4,
+  "training_samples": 43,
+  "test_samples": 15,
+  "features": [
+    "price_inr",
+    "range_km",
+    "battery_kwh",
+    "top_speed",
+    "charging_time",
+    "efficiency_km_per_kwh",
+    "seating_capacity",
+    "price_per_kwh",
+    "range_per_kwh",
+    "efficiency_score",
+    "value_score",
+    "charging_speed",
+    "type_encoded",
+    "fame_encoded",
+    "is_premium"
+  ],
+  "feature_importance": [
+    {
+      "feature": "range_km",
+      "importance": 0.14381826126973335
+    },
+    {
+      "feature": "value_score",
+      "importance": 0.11630312225001291
+    },
+    {
+      "feature": "battery_kwh",
+      "importance": 0.10038002569604175
+    },
+    {
+      "feature": "efficiency_km_per_kwh",
+      "importance": 0.09228505914419981
+    },
+    {
+      "feature": "efficiency_score",
+      "importance": 0.09227722163226997
+    },
+    {
+      "feature": "range_per_kwh",
+      "importance": 0.08779959889250273
+    },
+    {
+      "feature": "charging_speed",
+      "importance": 0.08661174078791727
+    },
+    {
+      "feature": "top_speed",
+      "importance": 0.08454622460325995
+    },
+    {
+      "feature": "price_inr",
+      "importance": 0.07676228396795352
+    },
+    {
+      "feature": "price_per_kwh",
+      "importance": 0.055679838072869345
+    },
+    {
+      "feature": "charging_time",
+      "importance": 0.02701009220906802
+    },
+    {
+      "feature": "type_encoded",
+      "importance": 0.018063097850600326
+    },
+    {
+      "feature": "seating_capacity",
+      "importance": 0.015313338129512171
+    },
+    {
+      "feature": "fame_encoded",
+      "importance": 0.0019694751491739506
+    },
+    {
+      "feature": "is_premium",
+      "importance": 0.0011806203448847124
+    }
+  ]
+}
