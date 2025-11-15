@@ -1,0 +1,21 @@
+{
+  "cv_mae": 26.708973972551156,
+  "cv_std": 1.8892058755116823,
+  "test_mae": 23.874924248705405,
+  "test_mse": 2316.590421322982,
+  "test_rmse": 48.13097153936311,
+  "test_r2": 0.9967672646807079,
+  "training_samples": 974,
+  "test_samples": 244,
+  "features": [
+    "brand_encoded",
+    "model_encoded",
+    "type_encoded",
+    "state_encoded",
+    "year",
+    "month_num",
+    "quarter",
+    "sales_rolling_3",
+    "sales_rolling_6"
+  ]
+}

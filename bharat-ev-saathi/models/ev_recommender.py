@@ -2,7 +2,7 @@
 EV Recommendation Engine
 =========================
 Machine Learning model to recommend best EVs based on user requirements.
-Uses ensemble learning with feature engineering for Indian market.
+Uses production ensemble model (RF + GB + RF) with 72% CV accuracy.
 
 Author: Bharat EV Saathi Project
 """
@@ -16,6 +16,7 @@ import joblib
 import os
 from pathlib import Path
 import logging
+import json
 
 from backend.data_loader import ev_data
 
@@ -26,19 +27,63 @@ PROJECT_ROOT = Path(__file__).parent.parent
 MODEL_DIR = PROJECT_ROOT / 'models' / 'saved'
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
+# Production model files
+PRODUCTION_MODEL = MODEL_DIR / 'ev_recommender_production.pkl'
+SCALER_FILE = MODEL_DIR / 'scaler.pkl'
+ENCODER_FILE = MODEL_DIR / 'label_encoder.pkl'
+FEATURES_FILE = MODEL_DIR / 'feature_columns.json'
+
 class EVRecommender:
     """
-    Intelligent EV recommendation system using machine learning
+    Intelligent EV recommendation system using production ensemble model
     """
     
-    def __init__(self):
-        """Initialize the recommender"""
+    def __init__(self, load_production_model=True):
+        """
+        Initialize the recommender
+        
+        Args:
+            load_production_model: If True, loads pre-trained production model
+        """
         self.data_loader = ev_data
         self.model = None
         self.scaler = None
-        self.label_encoders = {}
+        self.label_encoder = None
         self.feature_columns = []
-        logger.info("EV Recommender initialized")
+        
+        if load_production_model and PRODUCTION_MODEL.exists():
+            self.load_production_model()
+        else:
+            logger.info("EV Recommender initialized (no pre-trained model loaded)")
+    
+    def load_production_model(self):
+        """Load pre-trained production model and preprocessing objects"""
+        try:
+            logger.info("Loading production model...")
+            
+            # Load model
+            self.model = joblib.load(str(PRODUCTION_MODEL))
+            logger.info("✅ Model loaded")
+            
+            # Load scaler
+            self.scaler = joblib.load(str(SCALER_FILE))
+            logger.info("✅ Scaler loaded")
+            
+            # Load encoder
+            self.label_encoder = joblib.load(str(ENCODER_FILE))
+            logger.info("✅ Label encoder loaded")
+            
+            # Load features
+            with open(FEATURES_FILE, 'r') as f:
+                self.feature_columns = json.load(f)['features']
+            logger.info(f"✅ Features loaded ({len(self.feature_columns)} features)")
+            
+            logger.info("Production model loaded successfully!")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error loading production model: {e}")
+            return False
     
     def prepare_training_data(self):
         """
@@ -259,6 +304,159 @@ class EVRecommender:
             })
         
         return recommendations
+    
+    def engineer_features_for_input(self, df):
+        """
+        Engineer features for input data (same as training)
+        
+        Args:
+            df: DataFrame with raw EV data
+            
+        Returns:
+            DataFrame with engineered features
+        """
+        df = df.copy()
+        
+        # Core derived features
+        df['price_per_kwh'] = df['price_inr'] / (df['battery_kwh'] + 1)
+        df['range_per_kwh'] = df['range_km'] / (df['battery_kwh'] + 1)
+        df['efficiency_score'] = df['range_km'] * df['efficiency_km_per_kwh'] / 100
+        df['value_score'] = df['range_km'] / (df['price_inr'] / 100000)
+        df['charging_speed'] = df['battery_kwh'] / (df['charging_time'] + 0.1)
+        
+        # Boolean features
+        df['is_premium'] = (df['price_inr'] > 1000000).astype(int)
+        df['fame_encoded'] = (df['fame_eligible'] == 'Yes').astype(int)
+        
+        # Type encoding
+        type_map = {'2-Wheeler': 0, '3-Wheeler': 1, '4-Wheeler': 2}
+        df['type_encoded'] = df['type'].map(type_map).fillna(1).astype(int)
+        
+        return df
+    
+    def recommend_ml(self, budget, daily_km, vehicle_type='4-Wheeler', top_n=5):
+        """
+        ML-based recommendations using production ensemble model
+        
+        Args:
+            budget: Maximum budget in INR
+            daily_km: Daily driving distance in km
+            vehicle_type: '2-Wheeler', '3-Wheeler', or '4-Wheeler'
+            top_n: Number of recommendations to return
+            
+        Returns:
+            List of recommended EVs with ML scores and probabilities
+        """
+        if self.model is None:
+            logger.warning("Production model not loaded. Using rule-based recommendations.")
+            return self.recommend(budget, daily_km, vehicle_type, top_n=top_n)
+        
+        # Load all EVs
+        all_evs = self.data_loader.load_ev_vehicles()
+        
+        # Filter by type and budget
+        filtered_evs = all_evs[
+            (all_evs['type'] == vehicle_type) & 
+            (all_evs['price_inr'] <= budget)
+        ].copy()
+        
+        if len(filtered_evs) == 0:
+            logger.warning(f"No EVs found for type={vehicle_type}, budget=₹{budget:,}")
+            return []
+        
+        # Calculate required range
+        required_range = daily_km * 3
+        
+        # Engineer features
+        filtered_evs = self.engineer_features_for_input(filtered_evs)
+        
+        # Extract features in correct order
+        try:
+            X = filtered_evs[self.feature_columns].fillna(0).values
+            
+            # Scale features
+            X_scaled = self.scaler.transform(X)
+            
+            # Get predictions and probabilities
+            predictions = self.model.predict(X_scaled)
+            probabilities = self.model.predict_proba(X_scaled)
+            
+            # Get predicted segments
+            predicted_segments = self.label_encoder.inverse_transform(predictions)
+            max_probs = probabilities.max(axis=1)
+            
+        except Exception as e:
+            logger.error(f"ML prediction error: {e}")
+            return self.recommend(budget, daily_km, vehicle_type, top_n=top_n)
+        
+        # Combine ML score with rule-based scoring
+        recommendations = []
+        for idx, (_, ev) in enumerate(filtered_evs.iterrows()):
+            # ML confidence score (0-50 points)
+            ml_score = max_probs[idx] * 50
+            
+            # Range suitability (0-25 points)
+            range_score = min(25, (ev['range_km'] / required_range) * 25)
+            
+            # Price value (0-15 points)
+            price_score = (1 - (ev['price_inr'] / budget)) * 15
+            
+            # Efficiency (0-10 points)
+            efficiency_score = min(10, ev['efficiency_km_per_kwh'])
+            
+            # Total score
+            total_score = ml_score + range_score + price_score + efficiency_score
+            
+            # Build reasons
+            reasons = []
+            reasons.append(f"ML Confidence: {max_probs[idx]*100:.1f}% (Segment: {predicted_segments[idx]})")
+            
+            if ev['range_km'] >= required_range:
+                reasons.append(f"✅ Range: {ev['range_km']} km covers your {daily_km} km/day needs")
+            else:
+                reasons.append(f"⚠️ Range: {ev['range_km']} km (may need frequent charging for {daily_km} km/day)")
+            
+            if ev['price_inr'] / budget < 0.7:
+                reasons.append(f"💰 Great value at ₹{ev['price_inr']:,} ({ev['price_inr']/budget*100:.0f}% of budget)")
+            
+            if ev['efficiency_km_per_kwh'] > 8:
+                reasons.append(f"⚡ Excellent efficiency: {ev['efficiency_km_per_kwh']:.1f} km/kWh")
+            
+            if ev.get('fame_eligible') == 'Yes':
+                reasons.append(f"🎁 FAME subsidy: Save ₹{ev.get('central_subsidy_inr', 0):,}")
+            
+            recommendations.append({
+                'brand': ev['brand'],
+                'model': ev['model'],
+                'price': ev['price_inr'],
+                'range': ev['range_km'],
+                'battery_kwh': ev['battery_kwh'],
+                'type': ev['type'],
+                'segment': ev['segment'],
+                'ml_confidence': round(max_probs[idx] * 100, 1),
+                'predicted_segment': predicted_segments[idx],
+                'total_score': round(total_score, 2),
+                'ml_score': round(ml_score, 2),
+                'range_score': round(range_score, 2),
+                'price_score': round(price_score, 2),
+                'efficiency_score': round(efficiency_score, 2),
+                'reasons': reasons,
+                'efficiency': ev['efficiency_km_per_kwh'],
+                'top_speed': ev['top_speed'],
+                'charging_time': ev['charging_time'],
+                'fame_eligible': ev.get('fame_eligible', 'No'),
+                'subsidy': ev.get('central_subsidy_inr', 0),
+                'user_rating': ev.get('user_rating', 0)
+            })
+        
+        # Sort by total score
+        recommendations.sort(key=lambda x: x['total_score'], reverse=True)
+        
+        # Add ranks
+        for i, rec in enumerate(recommendations[:top_n], 1):
+            rec['rank'] = i
+        
+        return recommendations[:top_n]
     
     def compare_evs(self, ev_list):
         """
